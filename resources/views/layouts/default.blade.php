@@ -6,8 +6,6 @@
 	{!! Html::script('js/app.js') !!}
 </head>
 <body>
-	<div class="container">
-		@yield('content')
-	</div>
+	@yield('body')
 </body>
 </html>

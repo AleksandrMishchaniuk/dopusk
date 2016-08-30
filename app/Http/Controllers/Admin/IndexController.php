@@ -10,7 +10,7 @@ class IndexController extends BaseController
 
   public function index()
   {
-    echo 'Admin Page'; die;
+      return view('admin.index.index');
   }
 
 }

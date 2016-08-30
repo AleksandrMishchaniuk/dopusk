@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('root');
 
 Route::get('login', ['as' => 'login', 'uses' => 'Auth\AuthController@getLogin']);
 Route::post('login', ['as' => 'login', 'uses' => 'Auth\AuthController@postLogin']);
@@ -21,4 +21,10 @@ Route::post('login', ['as' => 'login', 'uses' => 'Auth\AuthController@postLogin'
 // Route::post('register', ['as' => 'register', 'uses' => 'Auth\AuthController@postRegister']);
 Route::get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
 
-Route::get('admin', ['as'=>'admin', 'uses'=>'Admin\IndexController@index']);
+Route::group(['as'=>'admin.', 'namespace'=>'Admin', 'prefix'=>'admin'], function(){
+  Route::get('/', ['as'=>'root', 'uses'=>'IndexController@index']);
+  Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'IndexController@index']);
+});
+Route::group(['namespace'=>'Admin', 'prefix'=>'admin'], function(){
+  Route::resource('ranges', 'RangeController');
+});

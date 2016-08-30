@@ -12,6 +12,6 @@ class BaseController extends \App\Http\Controllers\Controller
 
   function __construct(Request $request)
   {
-    $this->authorize('admin');
+      $this->middleware('admin');
   }
 }
