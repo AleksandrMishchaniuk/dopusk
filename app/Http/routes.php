@@ -22,9 +22,11 @@ Route::post('login', ['as' => 'login', 'uses' => 'Auth\AuthController@postLogin'
 Route::get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout']);
 
 Route::group(['as'=>'admin.', 'namespace'=>'Admin', 'prefix'=>'admin'], function(){
-  Route::get('/', ['as'=>'root', 'uses'=>'IndexController@index']);
-  Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'IndexController@index']);
+    Route::get('/', ['as'=>'root', 'uses'=>'IndexController@index']);
+    Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'IndexController@index']);
 });
 Route::group(['namespace'=>'Admin', 'prefix'=>'admin'], function(){
-  Route::resource('ranges', 'RangeController');
+    Route::resource('ranges', 'RangeController', ['except'=>['show']]);
+    Route::resource('qualities', 'QualityController', ['except'=>['show']]);
+    Route::resource('fields', 'FieldController', ['except'=>['show']]);
 });

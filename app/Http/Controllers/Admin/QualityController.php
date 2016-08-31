@@ -7,9 +7,9 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\Models\Range;
+use App\Models\Quality;
 
-class RangeController extends BaseController
+class QualityController extends BaseController
 {
     /**
      * Display a listing of the resource.
@@ -18,8 +18,9 @@ class RangeController extends BaseController
      */
     public function index()
     {
-        $ranges = Range::orderBy('min_val', 'asc')->get();
-        return view('admin.range.index', ['ranges'=>$ranges]);
+        $qualities = Quality::all();
+        // $qualities = Quality::orderBy('value', 'asc')->get();
+        return view('admin.quality.index', ['qualities'=>$qualities]);
     }
 
     /**
@@ -29,7 +30,7 @@ class RangeController extends BaseController
      */
     public function create()
     {
-        return view('admin.range.create', ['range'=>new Range]);
+        return view('admin.quality.create', ['quality'=>new Quality]);
     }
 
     /**
@@ -40,9 +41,9 @@ class RangeController extends BaseController
      */
     public function store(Request $request)
     {
-        $this->validate($request, Range::RULES, Range::MSGS);
-        Range::create($request->all());
-        return redirect()->route('admin.ranges.index');
+        $this->validate($request, Quality::RULES);
+        Quality::create($request->all());
+        return redirect()->route('admin.qualities.index');
     }
 
     /**
@@ -64,8 +65,8 @@ class RangeController extends BaseController
      */
     public function edit($id)
     {
-        $range = Range::find($id);
-        return view('admin.range.edit', ['range'=>$range]);
+        $quality = Quality::find($id);
+        return view('admin.quality.edit', ['quality'=>$quality]);
     }
 
     /**
@@ -77,9 +78,9 @@ class RangeController extends BaseController
      */
     public function update(Request $request, $id)
     {
-        $this->validate($request, Range::RULES, Range::MSGS);
-        Range::find($id)->update($request->all());
-        return redirect()->route('admin.ranges.index');
+        $this->validate($request, Quality::RULES);
+        Quality::find($id)->update($request->all());
+        return redirect()->route('admin.qualities.index');
     }
 
     /**
@@ -90,7 +91,7 @@ class RangeController extends BaseController
      */
     public function destroy($id)
     {
-        Range::destroy($id);
-        return redirect()->route('admin.ranges.index');
+        Quality::destroy($id);
+        return redirect()->route('admin.qualities.index');
     }
 }

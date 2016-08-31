@@ -22,7 +22,9 @@
                 <td>{{ $range->max_val }} мм</td>
                 <td>
                   {!! link_to_route('admin.ranges.edit', 'Редактировать', ['ranges'=>$range], ['class'=>'btn btn-primary']) !!}
-                  {!! link_to_route('admin.ranges.destroy', 'Удалить', ['ranges'=>$range], ['class'=>'btn btn-danger']) !!}
+                  {!! Form::submit('Удалить', ['class' => 'btn btn-danger delete_btn', 'form'=>"range_field_{$range->id}"]) !!}
+                  {!! Form::model($range, ['route' => ['admin.ranges.destroy', $range->id], 'method' => 'DELETE', 'id'=>"range_field_{$range->id}"]) !!}
+                  {!! Form::close() !!}
                 </td>
               </tr>
             @endforeach
@@ -30,4 +32,11 @@
         </table>
     </div>
   @endif
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.delete_btn').click(function(){
+      return confirm('Вы действительно хотите удалить эту запись?');
+    });
+  });
+  </script>
 @stop

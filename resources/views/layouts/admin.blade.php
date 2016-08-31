@@ -22,6 +22,12 @@
             <li class="{{ ($nav_page == 'ranges')? 'active': '' }}">
                 {!! link_to_route('admin.ranges.index', 'Диапазоны') !!}
             </li>
+            <li class="{{ ($nav_page == 'qualities')? 'active': '' }}">
+                {!! link_to_route('admin.qualities.index', 'Квалитеты') !!}
+            </li>
+            <li class="{{ ($nav_page == 'fields')? 'active': '' }}">
+                {!! link_to_route('admin.fields.index', 'Поля') !!}
+            </li>
           </ul>
           <div class="nav navbar-nav navbar-right">
             {!! link_to_route('root', "На сайт", [], ['class'=>'btn btn-default navbar-btn']) !!}
