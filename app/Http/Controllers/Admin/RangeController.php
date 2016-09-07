@@ -40,7 +40,7 @@ class RangeController extends BaseController
      */
     public function store(Request $request)
     {
-        $this->validate($request, Range::RULES, Range::MSGS);
+        $this->validate($request, Range::getRules(), Range::getErrMsgs());
         Range::create($request->all());
         return redirect()->route('admin.ranges.index');
     }
@@ -77,7 +77,7 @@ class RangeController extends BaseController
      */
     public function update(Request $request, $id)
     {
-        $this->validate($request, Range::RULES, Range::MSGS);
+        $this->validate($request, Range::getRules(), Range::getErrMsgs());
         Range::find($id)->update($request->all());
         return redirect()->route('admin.ranges.index');
     }

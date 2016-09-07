@@ -19,6 +19,9 @@
             <li class="{{ ($nav_page == 'dashboard')? 'active': '' }}">
                 {!! link_to_route('admin.dashboard', 'Главная панель') !!}
             </li>
+            <li class="{{ ($nav_page == 'tolerances')? 'active': '' }}">
+                {!! link_to_route('admin.tolerances.index', 'Допуски') !!}
+            </li>
             <li class="{{ ($nav_page == 'ranges')? 'active': '' }}">
                 {!! link_to_route('admin.ranges.index', 'Диапазоны') !!}
             </li>

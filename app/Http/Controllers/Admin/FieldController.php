@@ -40,7 +40,7 @@ class FieldController extends BaseController
      */
     public function store(Request $request)
     {
-        $this->validate($request, Field::RULES);
+        $this->validate($request, Field::getRules());
         Field::create($request->all());
         return redirect()->route('admin.fields.index');
     }
@@ -77,7 +77,7 @@ class FieldController extends BaseController
      */
     public function update(Request $request, $id)
     {
-        $this->validate($request, Field::RULES);
+        $this->validate($request, Field::getRules());
         Field::find($id)->update($request->all());
         return redirect()->route('admin.fields.index');
     }

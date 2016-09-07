@@ -32,6 +32,9 @@
         </table>
     </div>
   @endif
+@stop
+
+@section('template_scripts')
   <script type="text/javascript">
   $(document).ready(function(){
     $('.delete_btn').click(function(){

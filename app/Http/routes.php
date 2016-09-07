@@ -24,9 +24,12 @@ Route::get('logout', ['as' => 'logout', 'uses' => 'Auth\AuthController@getLogout
 Route::group(['as'=>'admin.', 'namespace'=>'Admin', 'prefix'=>'admin'], function(){
     Route::get('/', ['as'=>'root', 'uses'=>'IndexController@index']);
     Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'IndexController@index']);
+    Route::get('tolerances', ['as'=>'tolerances.index', 'uses'=>'ToleranceController@index']);
+    Route::get('api/v1/tolerances', ['as'=>'api.v1.tolerances.list', 'uses'=>'ToleranceController@getList']);
 });
 Route::group(['namespace'=>'Admin', 'prefix'=>'admin'], function(){
     Route::resource('ranges', 'RangeController', ['except'=>['show']]);
     Route::resource('qualities', 'QualityController', ['except'=>['show']]);
     Route::resource('fields', 'FieldController', ['except'=>['show']]);
+    // Route::resource('tolerances', 'ToleranceController');
 });

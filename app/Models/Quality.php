@@ -6,9 +6,28 @@ use Illuminate\Database\Eloquent\Model;
 
 class Quality extends Model
 {
-  const RULES = [
-      'value' => 'required|digits_between:1,2',
-  ];
   public $timestamps = false;
   protected $fillable = ['value'];
+
+  public static function getRules()
+  {
+      return [
+          'value' => 'required|digits_between:1,2',
+      ];
+  }
+
+  public function tolerances()
+  {
+      return $hasMany('Tolerance');
+  }
+
+  public function fields()
+  {
+      return $this->hasManyThrough('Field', 'Tolerance');
+  }
+
+  public function ranges()
+  {
+      return $this->hasManyThrough('Range', 'Tolerance');
+  }
 }
