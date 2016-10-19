@@ -19,7 +19,7 @@
           </div>
 
           <div class="form-group">
-              {!! Form::submit("Sign In", ['class' => 'btn btn-success']) !!}
+              {!! Form::submit("Sign In", ['class' => 'btn btn-success signin_btn']) !!}
           </div>
       {!! Form::close() !!}
     </div>

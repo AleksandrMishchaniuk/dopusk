@@ -33,6 +33,7 @@ class AuthController extends Controller
         $this->middleware('guest', ['except' => 'getLogout']);
         $this->redirectTo = url('/');
         $this->redirectAfterLogout = url('/');
+        $this->loginPath = route('login');
     }
 
     /**

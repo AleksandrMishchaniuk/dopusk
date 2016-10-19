@@ -5,7 +5,7 @@
     <div class="col-sm-offset-3 col-sm-6">
       <h1 class="text-center">Registration Page</h1>
       <hr>
-      {!! Form::open(['method' => 'POST', 'route' => 'login']) !!}
+      {!! Form::open(['method' => 'POST', 'route' => 'register']) !!}
           <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
               {!! Form::label('name', 'Name') !!}
               {!! Form::text('name', null, ['class' => 'form-control', 'required' => 'required']) !!}
@@ -27,7 +27,7 @@
               <small class="text-danger">{{ $errors->first('password_confirmation') }}</small>
           </div>
           <div class="form-group">
-              {!! Form::submit("Sign Up", ['class' => 'btn btn-success']) !!}
+              {!! Form::submit("Sign Up", ['class' => 'btn btn-success signup_btn']) !!}
           </div>
       {!! Form::close() !!}
     </div>
