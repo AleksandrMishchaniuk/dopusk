@@ -151,6 +151,7 @@ return [
 
         //dev
         Barryvdh\Debugbar\ServiceProvider::class,
+        Orangehill\Iseed\IseedServiceProvider::class,
 
     ],
 

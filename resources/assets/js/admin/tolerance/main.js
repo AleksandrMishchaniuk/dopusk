@@ -52,10 +52,7 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL, orderedQuali
   };
 
   $scope.fieldBySystem = function(text){
-    if($scope.cur_system == 'hole'){
-      return text.toUpperCase();
-    }
-    return text;
+    return ($scope.cur_system == 'hole')? text.toUpperCase(): text;
   }
 
   function getKeys(arr) {
