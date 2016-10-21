@@ -54,7 +54,6 @@ class ToleranceManager
                   'min' => $tolerance->$min_val,
                 ];
               } else {
-                // $this->array[$range][$system][$quality][$field] = NUll;
                 $this->array[$range][$system][$quality][$field] = [
                   'max' => NUll,
                   'min' => NUll,
