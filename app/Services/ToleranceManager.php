@@ -32,43 +32,98 @@ class ToleranceManager
       $this->fillQualities();
       $this->fillFields();
       $this->fillTolerances();
-      foreach ($this->ranges as $range_obj) {
-        $range = $this->getRangeKey($range_obj);
-        $this->array[$range] = [];
-        foreach (Tolerance::SYSTEMS as $system) {
-          $this->array[$range][$system] = [];
-          foreach ($this->qualities as $quality_obj) {
-            $quality = $quality_obj->value;
-            $this->array[$range][$system][$quality] = [];
-            foreach ($this->fields as $field_obj) {
-              $field = $field_obj->value;
-              $tolerance = $this->tolerances
-                                ->where('range_id', $range_obj->id)
-                                ->where('system', $system)
-                                ->where( 'quality_id', $quality_obj->id)
-                                ->where( 'field_id', $field_obj->id)
-                                ->first();
-              if ($tolerance) {
-                $this->array[$range][$system][$quality][$field] = [
-                  'max' => $tolerance->$max_val,
-                  'min' => $tolerance->$min_val,
-                ];
-              } else {
-                $this->array[$range][$system][$quality][$field] = [
-                  'max' => NUll,
-                  'min' => NUll,
-                ];
-              }
-            }
-          }
-        }
-      }
+
+      $ids = [];
+
+      $this->array = $this->getRangesArray($this->ranges, $ids);
       return $this->array;
   }
 
-  protected function getRangeKey(Range $range)
+  protected function getRangesArray($ranges, $ids)
   {
-      return "{$range->min_val}_{$range->max_val}";
+      $array = [];
+      foreach ($ranges as $range) {
+          $ids['range'] = $range->id;
+          $array["{$range->id}"] = [
+              'id' => $range->id,
+              'type' => 'range',
+              'max' => $range->max_val,
+              'min' => $range->min_val,
+              'systems' => $this->getSystemsArray(Tolerance::SYSTEMS, $ids),
+          ];
+      }
+      return $array;
+  }
+
+  protected function getSystemsArray($systems, $ids)
+  {
+      $array = [];
+      foreach ($systems as $system) {
+          $ids['system'] = $system;
+          $array[$system] = [
+              'type' => 'system',
+              'title' => $system,
+              'qualities' => $this->getQualitiesArray($this->qualities, $ids),
+          ];
+      }
+      return $array;
+  }
+
+  protected function getQualitiesArray($qualities, $ids)
+  {
+      $array = [];
+      foreach ($qualities as $quality) {
+          $ids['quality'] = $quality->id;
+          $array["{$quality->id}"] = [
+              'id' => $quality->id,
+              'type' => 'quality',
+              'title' => $quality->value,
+              'fields' => $this->getFieldsArray($this->fields, $ids),
+          ];
+      }
+      return $array;
+  }
+
+  protected function getFieldsArray($fields, $ids)
+  {
+      $array = [];
+      foreach ($fields as $field) {
+          $ids['field'] = $field->id;
+          $array["{$field->id}"] = [
+              'id' => $field->id,
+              'type' => 'quality',
+              'title' => $field->value,
+              'tolerance' => $this->getTolerance($this->tolerances, $ids),
+          ];
+      }
+      return $array;
+  }
+
+  protected function getTolerance($tolerances, $ids)
+  {
+      $array = [];
+      $tolerance = $tolerances
+                    ->where('range_id', $ids['range'])
+                    ->where('system', $ids['system'])
+                    ->where( 'quality_id', $ids['quality'])
+                    ->where( 'field_id', $ids['field'])
+                    ->first();
+      if ($tolerance) {
+        $array = [
+            'id' => $tolerance->id,
+            'type' => 'tolerance',
+            'max' => $tolerance->max_val,
+            'min' => $tolerance->min_val,
+        ];
+      } else {
+        $array = [
+            'id' => NUll,
+            'type' => 'tolerance',
+            'max' => NUll,
+            'min' => NUll,
+        ];
+      }
+      return $array;
   }
 
   protected function fillRanges()
