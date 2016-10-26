@@ -6,23 +6,23 @@
       <div class="col-md-1">
         <div class="form-group" ng-repeat="system in systems">
           <input type="radio" name="system"
-                              id="system_@{{ system }}"
-                              value="@{{ system }}"
+                              id="system_@{{ system['title'] }}"
+                              value="@{{ system['title'] }}"
                               ng-model="$parent.cur_system"
                               ng-click="refreshGrid()">
-          <label for="system_@{{ system }}">
-            @{{ (system == 'hole')? 'Отв.': 'Вал' }}
+          <label for="system_@{{ system['title'] }}">
+            @{{ (system['title'] == 'hole')? 'Отв.': 'Вал' }}
           </label>
         </div>
         <hr>
         <div ng-repeat="range in ranges">
           <input type="radio" name="range"
-                              id="range_@{{ range }}"
-                              value="@{{ range }}"
+                              id="range_@{{ range['id'] }}"
+                              value="@{{ range['id'] }}"
                               ng-model="$parent.cur_range"
                               ng-click="refreshGrid()">
-          <label for="range_@{{ range }}">
-            @{{ range.replace('_', '-') }}
+          <label for="range_@{{ range['id'] }}">
+            @{{ range['min'] }} - @{{ range['max'] }}
           </label>
         </div>
       </div>
@@ -31,16 +31,16 @@
           <tr>
             <td></td>
             <td ng-repeat="field in fields">
-              @{{ fieldBySystem(field) }}
+              @{{ fieldBySystem(field['title']) }}
             </td>
           </tr>
           <tr ng-repeat="quality in grid | orderQualities">
-            <td>@{{ quality['name'] }}</td>
-            <td ng-repeat="(field_name, item) in quality['fields']"
-                ng-click="editField(item, field_name, quality['name'])"
-                ng-class="{selected: item == cur_item}">
-              <div>@{{ item['max'] }}</div>
-              <div>@{{ item['min'] }}</div>
+            <td>@{{ quality.item.title }}</td>
+            <td ng-repeat="field in quality.item.fields"
+                ng-click="editField(field, quality.item)"
+                ng-class="{selected: field.tolerance == cur_item}">
+              <div>@{{ field.tolerance.max }}</div>
+              <div>@{{ field.tolerance.min }}</div>
             </td>
           </tr>
         </table>

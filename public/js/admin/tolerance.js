@@ -20,30 +20,31 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL, orderedQuali
 
   function buildGrid(responce){
     $scope.tolerances = responce;
-    $scope.ranges = getKeys($scope.tolerances);
-    $scope.systems = getKeys($scope.tolerances[$scope.ranges[0]]);
-    $scope.qualities = getKeys($scope.tolerances[$scope.ranges[0]][$scope.systems[0]]);
-    $scope.fields = getKeys($scope.tolerances[$scope.ranges[0]][$scope.systems[0]][[$scope.qualities[0]]]);
-    $scope.cur_range = $scope.ranges[0];
-    $scope.cur_system = $scope.systems[0];
+    $scope.ranges = getItems($scope.tolerances);
+    $scope.systems = getItems($scope.tolerances[$scope.ranges[0]['id']]['systems']);
+    $scope.qualities = getItems($scope.tolerances[$scope.ranges[0]['id']]['systems']
+                                                [$scope.systems[0]['title']]['qualities']);
+    $scope.fields = getItems($scope.tolerances[$scope.ranges[0]['id']]['systems']
+                                             [$scope.systems[0]['title']]['qualities']
+                                             [$scope.qualities[0]['id']]['fields']);
+    $scope.cur_range = $scope.ranges[0]['id'];
+    $scope.cur_system = $scope.systems[0]['title'];
     $scope.refreshGrid();
-    console.log($scope.ranges);
-    console.log($scope.systems);
   }
 
   $scope.refreshGrid = function(){
-    console.log($scope.cur_range);
     orderedQualities.set([]);
-    $scope.grid = $scope.tolerances[$scope.cur_range][$scope.cur_system];
+    $scope.grid = $scope.tolerances[$scope.cur_range]['systems']
+                                   [$scope.cur_system]['qualities'];
     resetCurItemForm();
   };
 
-  $scope.editField = function(item, field_name, quality_name){
-    $scope.cur_max_val = item['max'];
-    $scope.cur_min_val = item['min'];
-    $scope.cur_item = item;
-    $scope.cur_field_name = field_name;
-    $scope.cur_quality_name = quality_name;
+  $scope.editField = function(field, quality){
+    $scope.cur_max_val = field.tolerance.max;
+    $scope.cur_min_val = field.tolerance.min;
+    $scope.cur_item = field.tolerance;
+    $scope.cur_field_name = field.title;
+    $scope.cur_quality_name = quality.title;
   };
 
   $scope.updateField = function(){
@@ -55,11 +56,16 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL, orderedQuali
     return ($scope.cur_system == 'hole')? text.toUpperCase(): text;
   }
 
-  function getKeys(arr) {
+  function getItems(items) {
     var res = [];
-    for (var key in arr) {
-      res.push(key);
-    }
+    angular.forEach(items, function(item, key){
+      new_item = angular.copy(item);
+      delete new_item['systems'];
+      delete new_item['qualities'];
+      delete new_item['fields'];
+      delete new_item['tolerance'];
+      res.push(new_item);
+    });
     return res;
   }
 
@@ -78,8 +84,8 @@ app.filter('orderQualities', function(orderedQualities){
     if (!arr.length) {
       angular.forEach(items, function(item, key){
         arr.push({
-          name: key,
-          fields: item
+          name: item['title'],
+          item: item
         });
       });
       arr = arr.sort(function(a,b){
