@@ -19,88 +19,34 @@ class ToleranceController extends BaseController
      */
     public function index()
     {
-        // $tolerance_manager = new ToleranceManager();
-        // $tolerances_array = $tolerance_manager->getArray();
-        // return view('admin.tolerance.index', ['tolerances'=>$tolerances_array]);
-        return view('admin.tolerance.index');
+        $tolerance = new Tolerance;
+        return view('admin.tolerance.index', ['tolerance' => $tolerance]);
     }
 
     public function getList()
     {
-      $tolerance_manager = new ToleranceManager();
-      // return 'Hi';
-      return $tolerance_manager->getArray();
+        $tolerance_manager = new ToleranceManager();
+        return $tolerance_manager->getArray();
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
+    public function postSave(Request $request)
     {
-        return view('admin.range.create', ['range'=>new Range]);
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        $this->validate($request, Range::getRules());
-        Range::create($request->all());
-        return redirect()->route('admin.ranges.index');
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        $range = Range::find($id);
-        return view('admin.range.edit', ['range'=>$range]);
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        $this->validate($request, Range::getRules());
-        Range::find($id)->update($request->all());
-        return redirect()->route('admin.ranges.index');
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        Range::destroy($id);
-        return redirect()->route('admin.ranges.index');
+        $this->validate($request, Tolerance::getRules(), Tolerance::getErrMsgs());
+        $data = $request->all();
+        $id = (int) $data['id'];
+        if ($id) {
+            $item = Tolerance::find($id);
+            if ($data['max_val'] || $data['min_val']) {
+                $item->update($data);
+            } else {
+                $item->delete();
+                $id = null;
+            }
+        } else {
+            if ($data['max_val'] || $data['min_val']) {
+                $id = Tolerance::create($data)->id;
+            }
+        }
+        return $id;
     }
 }

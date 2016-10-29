@@ -15,12 +15,18 @@ class Tolerance extends Model
   public static function getRules()
   {
       return [
-          'system' => "required|in:".implode(',', SYSTEMS),
-          'max_val' => 'required|numeric',
-          'min_val' => 'required|numeric',
+          'system' => "required|in:".implode(',', self::SYSTEMS),
+          'max_val' => 'sometimes|numeric|greater_than:min_val',
+          'min_val' => 'sometimes|numeric',
           'range_id' => 'required',
           'quality_id' => 'required',
           'field_id' => 'required',
+      ];
+  }
+  public static function getErrMsgs()
+  {
+      return [
+          'greater_than' => 'Должно быть больше, чем "Min"',
       ];
   }
 

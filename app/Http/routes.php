@@ -26,6 +26,7 @@ Route::group(['as'=>'admin.', 'namespace'=>'Admin', 'prefix'=>'admin'], function
     Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'IndexController@index']);
     Route::get('tolerances', ['as'=>'tolerances.index', 'uses'=>'ToleranceController@index']);
     Route::get('api/v1/tolerances', ['as'=>'api.v1.tolerances.list', 'uses'=>'ToleranceController@getList']);
+    Route::post('api/v1/tolerances', ['as'=>'api.v1.tolerances.save', 'uses'=>'ToleranceController@postSave']);
 });
 Route::group(['namespace'=>'Admin', 'prefix'=>'admin'], function(){
     Route::resource('ranges', 'RangeController', ['except'=>['show']]);

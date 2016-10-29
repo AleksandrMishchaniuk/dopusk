@@ -16,6 +16,7 @@ app.service('orderedQualities', function(){
 });
 
 app.controller('ToleranceAppCtrl', function($scope, $http, API_URL, orderedQualities){
+
   $http.get(API_URL + 'tolerances').success(buildGrid);
 
   function buildGrid(responce){
@@ -45,16 +46,46 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL, orderedQuali
     $scope.cur_item = field.tolerance;
     $scope.cur_field_name = field.title;
     $scope.cur_quality_name = quality.title;
+    $scope.cur_field = field.id;
+    $scope.cur_quality = quality.id;
   };
 
   $scope.updateField = function(){
-    $scope.cur_item['max'] = $scope.cur_max_val;
-    $scope.cur_item['min'] = $scope.cur_min_val;
+    var params = {
+      max_val: $scope.cur_max_val,
+      min_val: $scope.cur_min_val,
+      system: $scope.cur_system,
+      range_id: $scope.cur_range,
+      field_id: $scope.cur_field,
+      field_id: $scope.cur_field,
+      quality_id: $scope.cur_quality,
+      id: $scope.cur_item.id
+    };
+    $http({
+      method: 'POST',
+      url: API_URL + 'tolerances',
+      data: $.param(params),
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+    }).success(function(data){
+      console.log(data);
+      $scope.errors = {};
+      $scope.cur_item.max = $scope.cur_max_val;
+      $scope.cur_item.min = $scope.cur_min_val;
+      $scope.cur_item.id = data;
+    }).error(function(data, status){
+      console.error(data);
+      $scope.errors = data;
+    });
   };
 
   $scope.fieldBySystem = function(text){
     return ($scope.cur_system == 'hole')? text.toUpperCase(): text;
-  }
+  };
+
+  $scope.toleranceToFloat = function(tolerance){
+    tolerance.max = tolerance.max ? parseFloat(tolerance.max) : null;
+    tolerance.min = tolerance.min ? parseFloat(tolerance.min) : null;
+  };
 
   function getItems(items) {
     var res = [];
