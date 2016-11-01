@@ -20,5 +20,6 @@ class DatabaseSeeder extends Seeder
         $this->call('RangesTableSeeder');
         $this->call('QualitiesTableSeeder');
         $this->call('FieldsTableSeeder');
+        $this->call('TolerancesTableSeeder');
     }
 }
