@@ -19,6 +19,7 @@
                     {!! Form::number('max_val', null, [
                       'class' => 'form-control',
                       'ng-model' => 'cur_max_val',
+                      'focus' => 'cur_max_val_focus',
                       'min' => '@{{ cur_min_val + 0.001 }}',
                     ]) !!}
                     <br>
@@ -54,6 +55,28 @@
       </div>
 
       <div class="row">
+        <div class="col-md-10">
+          <table class="table table-bordered">
+            <tr>
+              <td></td>
+              <td ng-repeat="field in fields">
+                @{{ fieldBySystem(field['title']) }}
+              </td>
+            </tr>
+            <tr ng-repeat="quality in grid | orderQualities">
+              <td>@{{ quality.item.title }}</td>
+              <td ng-repeat="field in quality.item.fields"
+                  ng-click="editField(field, quality.item)"
+                  ng-class="{selected: field.tolerance == cur_item}"
+                  class="tolerance_cell">
+                @{{ toleranceToFloat(field.tolerance) }}
+                <div class="tolerance_val">@{{ field.tolerance.max }}</div>
+                <div class="tolerance_val">@{{ field.tolerance.min }}</div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
         <div class="col-md-2">
           <div class="form-group" ng-repeat="system in systems">
             <input type="radio" name="system"
@@ -77,27 +100,6 @@
             </label>
           </div>
         </div>
-
-        <div class="col-md-10">
-          <table class="table table-bordered">
-            <tr>
-              <td></td>
-              <td ng-repeat="field in fields">
-                @{{ fieldBySystem(field['title']) }}
-              </td>
-            </tr>
-            <tr ng-repeat="quality in grid | orderQualities">
-              <td>@{{ quality.item.title }}</td>
-              <td ng-repeat="field in quality.item.fields"
-                  ng-click="editField(field, quality.item)"
-                  ng-class="{selected: field.tolerance == cur_item}">
-                @{{ toleranceToFloat(field.tolerance) }}
-                <div>@{{ field.tolerance.max }}</div>
-                <div>@{{ field.tolerance.min }}</div>
-              </td>
-            </tr>
-          </table>
-        </div>
       </div>
 
     </div>
@@ -111,6 +113,13 @@
     }
     .selected{
       background-color: orange;
+    }
+    .tolerance_val{
+      height: 18px;
+      text-align: center;
+    }
+    .table > tbody > tr > td.tolerance_cell{
+      padding: 2px;
     }
   </style>
 @stop

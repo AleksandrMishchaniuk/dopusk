@@ -48,6 +48,8 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL, orderedQuali
     $scope.cur_quality_name = quality.title;
     $scope.cur_field = field.id;
     $scope.cur_quality = quality.id;
+    $scope.cur_max_val_focus = false;
+    $scope.cur_max_val_focus = true;
   };
 
   $scope.updateField = function(){
@@ -107,6 +109,24 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL, orderedQuali
     $scope.cur_field_name = '';
     $scope.cur_quality_name = '';
   }
+});
+
+app.directive('focus', function($parse, $timeout){
+  return {
+    link: function(scope, element, attrs){
+      var model = $parse(attrs.focus)
+      scope.$watch(model, function(val){
+        if(val === true){
+          $timeout(function () {
+            element[0].focus();
+          });
+        }
+      });
+      element.bind('blur', function(){
+        scope.$apply(model.assign(scope, false));
+      });
+    }
+  };
 });
 
 app.filter('orderQualities', function(orderedQualities){
