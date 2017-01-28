@@ -25,6 +25,7 @@ class ToleranceController extends BaseController
 
     public function getList()
     {
+        set_time_limit(60);
         $tolerance_manager = new ToleranceManager();
         return $tolerance_manager->getArray();
     }
