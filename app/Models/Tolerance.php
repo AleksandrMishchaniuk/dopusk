@@ -45,22 +45,22 @@ class Tolerance extends Model
     return $this->belongsTo('Field');
   }
 
-  public function scopeRange($query, Range $range)
+  public function scopeByRange($query, $range_id)
   {
-      return $query->where('range_id', $range->id);
+      return $query->where('range_id', $range_id);
   }
 
-  public function scopeQuality($query, Quality $quality)
+  public function scopeByQuality($query, $quality_id)
   {
-      return $query->where('quality_id', $quality->id);
+      return $query->where('quality_id', $quality_id);
   }
 
-  public function scopeField($query, Field $field)
+  public function scopeByField($query, $field_id)
   {
-      return $query->where('field_id', $field->id);
+      return $query->where('field_id', $field_id);
   }
 
-  public function scopeSystem($query, $system)
+  public function scopeBySystem($query, $system)
   {
       return $query->where('system', $system);
   }

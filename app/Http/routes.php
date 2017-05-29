@@ -25,7 +25,11 @@ Route::group(['as'=>'admin.', 'namespace'=>'Admin', 'prefix'=>'admin'], function
     Route::get('/', ['as'=>'root', 'uses'=>'IndexController@index']);
     Route::get('dashboard', ['as'=>'dashboard', 'uses'=>'IndexController@index']);
     Route::get('tolerances', ['as'=>'tolerances.index', 'uses'=>'ToleranceController@index']);
-    Route::get('api/v1/tolerances', ['as'=>'api.v1.tolerances.list', 'uses'=>'ToleranceController@getList']);
+    Route::get('api/v1/tolerances', ['as'=>'api.v1.tolerances.grid', 'uses'=>'ToleranceController@getList']);
+    Route::get('api/v1/systems', ['as'=>'api.v1.systems.list', 'uses'=>'ToleranceController@getSystems']);
+    Route::get('api/v1/ranges', ['as'=>'api.v1.ranges.list', 'uses'=>'ToleranceController@getRanges']);
+    Route::get('api/v1/qualities', ['as'=>'api.v1.qualities.list', 'uses'=>'ToleranceController@getQualities']);
+    Route::get('api/v1/fields', ['as'=>'api.v1.fields.list', 'uses'=>'ToleranceController@getFields']);
     Route::post('api/v1/tolerances', ['as'=>'api.v1.tolerances.save', 'uses'=>'ToleranceController@postSave']);
 });
 Route::group(['namespace'=>'Admin', 'prefix'=>'admin'], function(){

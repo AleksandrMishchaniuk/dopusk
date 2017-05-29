@@ -21,6 +21,7 @@
                       'ng-model' => 'cur_max_val',
                       'focus' => 'cur_max_val_focus',
                       'min' => '@{{ cur_min_val + 0.001 }}',
+                      'ng-keyup' => 'keyupHandler($event)',
                     ]) !!}
                     <br>
                     <small class="text-danger">
@@ -35,6 +36,7 @@
                       'class' => 'form-control',
                       'ng-model' => 'cur_min_val',
                       'max' => '@{{ cur_max_val }}',
+                      'ng-keyup' => 'keyupHandler($event)',
                     ]) !!}
                     <br>
                     <small class="text-danger">
@@ -56,22 +58,25 @@
 
       <div class="row">
         <div class="col-md-10">
-          <table class="table table-bordered">
+          <table class="table table-bordered" tabindex="0" cell-cursor="cursor" ng-keyup="keyupHandler($event)">
             <tr>
               <td></td>
               <td ng-repeat="field in fields">
-                @{{ fieldBySystem(field['title']) }}
+                @{{ fieldBySystem(field.title) }}
               </td>
             </tr>
-            <tr ng-repeat="quality in grid | orderQualities">
-              <td>@{{ quality.item.title }}</td>
-              <td ng-repeat="field in quality.item.fields"
-                  ng-click="editField(field, quality.item)"
-                  ng-class="{selected: field.tolerance == cur_item}"
+            <tr ng-repeat="(q, quality) in qualities">
+              <td>@{{ quality.title }}</td>
+              <td ng-repeat="(f, field) in fields"
+                  ng-click="editItem(field, quality, f, q)"
+                  ng-class="{selected: grid[field.id][quality.id] == cur_item}"
+                  {{-- ng-keyup="console.log($event)"
+                  ng-keypress="console.log($event)"
+                  ng-keydown="keydownHandler($event)" --}}
+                  {{-- ng-keyup="keyupHandler(f, q, $event)" --}}
                   class="tolerance_cell">
-                @{{ toleranceToFloat(field.tolerance) }}
-                <div class="tolerance_val">@{{ field.tolerance.max }}</div>
-                <div class="tolerance_val">@{{ field.tolerance.min }}</div>
+                <div class="tolerance_val">@{{ grid[field.id][quality.id]['max_val'] }}</div>
+                <div class="tolerance_val">@{{ grid[field.id][quality.id]['min_val'] }}</div>
               </td>
             </tr>
           </table>
@@ -80,23 +85,21 @@
         <div class="col-md-2">
           <div class="form-group" ng-repeat="system in systems">
             <input type="radio" name="system"
-                                id="system_@{{ system['title'] }}"
-                                value="@{{ system['title'] }}"
+                                id="system_@{{ system.title }}"
+                                value="@{{ system.title }}"
                                 ng-model="$parent.cur_system"
-                                ng-click="refreshGrid()">
-            <label for="system_@{{ system['title'] }}">
-              @{{ (system['title'] == 'hole')? 'Отв.': 'Вал' }}
+            <label for="system_@{{ system.title }}">
+              @{{ (system.title == 'hole')? 'Отв.': 'Вал' }}
             </label>
           </div>
           <hr>
           <div ng-repeat="range in ranges">
             <input type="radio" name="range"
-                                id="range_@{{ range['id'] }}"
-                                value="@{{ range['id'] }}"
+                                id="range_@{{ range.id }}"
+                                value="@{{ range.id }}"
                                 ng-model="$parent.cur_range"
-                                ng-click="refreshGrid()">
-            <label for="range_@{{ range['id'] }}">
-              @{{ range['min'] }} - @{{ range['max'] }}
+            <label for="range_@{{ range.id }}">
+              @{{ range.min }} - @{{ range.max }}
             </label>
           </div>
         </div>
