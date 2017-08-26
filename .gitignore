@@ -1,8 +1,5 @@
 /vendor
 /node_modules
-/.vagrant
-Homestead.yaml
-Homestead.json
 .env
 .env.testing
 .idea

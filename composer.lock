@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a2a5c9fdfb7320d9e378e0e5b552318",
+    "content-hash": "0e3ac75620c89947b90a70b6f3c28f84",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1065,21 +1065,21 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.7.19",
+            "version": "v2.7.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "91a8fb9f91aeb00caaeab95818063e3a96bff9e2"
+                "reference": "a7844e72ac496096420e20d45970610b36fadde9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/91a8fb9f91aeb00caaeab95818063e3a96bff9e2",
-                "reference": "91a8fb9f91aeb00caaeab95818063e3a96bff9e2",
+                "url": "https://api.github.com/repos/symfony/console/zipball/a7844e72ac496096420e20d45970610b36fadde9",
+                "reference": "a7844e72ac496096420e20d45970610b36fadde9",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "symfony/debug": "~2.7,>=2.7.2"
+                "symfony/debug": "^2.7.2"
             },
             "require-dev": {
                 "psr/log": "~1.0",
@@ -1121,7 +1121,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-27T17:33:51+00:00"
+            "time": "2017-07-29T07:58:31+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -1178,16 +1178,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v2.7.19",
+            "version": "v2.7.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "659f346c4a81aae6524b6d7043bcfbcfc5a3d67e"
+                "reference": "0946243775c293ebaae7c417445d853527d84301"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/659f346c4a81aae6524b6d7043bcfbcfc5a3d67e",
-                "reference": "659f346c4a81aae6524b6d7043bcfbcfc5a3d67e",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/0946243775c293ebaae7c417445d853527d84301",
+                "reference": "0946243775c293ebaae7c417445d853527d84301",
                 "shasum": ""
             },
             "require": {
@@ -1199,7 +1199,7 @@
             },
             "require-dev": {
                 "symfony/class-loader": "~2.2",
-                "symfony/http-kernel": "~2.3.24|~2.5.9|~2.6,>=2.6.2"
+                "symfony/http-kernel": "~2.3.24|~2.5.9|^2.6.2"
             },
             "type": "library",
             "extra": {
@@ -1231,7 +1231,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-06T07:26:07+00:00"
+            "time": "2017-07-26T20:00:18+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -1704,16 +1704,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.7.19",
+            "version": "v2.7.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "e134ba500a16bead3a059a087b652182f4f85481"
+                "reference": "95c5ed0b9ec2a03fc6247d0455c008e96e97fbb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/e134ba500a16bead3a059a087b652182f4f85481",
-                "reference": "e134ba500a16bead3a059a087b652182f4f85481",
+                "url": "https://api.github.com/repos/symfony/process/zipball/95c5ed0b9ec2a03fc6247d0455c008e96e97fbb4",
+                "reference": "95c5ed0b9ec2a03fc6247d0455c008e96e97fbb4",
                 "shasum": ""
             },
             "require": {
@@ -1749,7 +1749,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-29T02:20:21+00:00"
+            "time": "2017-06-27T16:14:10+00:00"
         },
         {
             "name": "symfony/routing",
@@ -2680,56 +2680,6 @@
             "time": "2015-05-11T14:41:42+00:00"
         },
         {
-            "name": "laravel/homestead",
-            "version": "5.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/homestead.git",
-                "reference": "b121cb4a9a364817164b4bc96da31f1d21d22018"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/homestead/zipball/b121cb4a9a364817164b4bc96da31f1d21d22018",
-                "reference": "b121cb4a9a364817164b4bc96da31f1d21d22018",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.6 || ^7.0",
-                "symfony/console": "~2.3|~3.0",
-                "symfony/process": "~2.3|~3.0",
-                "symfony/yaml": "~2.3|~3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7 || ^6.0"
-            },
-            "bin": [
-                "bin/homestead"
-            ],
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Homestead\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                }
-            ],
-            "description": "A virtual machine for web artisans.",
-            "time": "2017-04-22T16:40:49+00:00"
-        },
-        {
             "name": "maximebf/debugbar",
             "version": "v1.13.0",
             "source": {
@@ -2795,12 +2745,12 @@
             "version": "0.9.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/padraic/mockery.git",
+                "url": "https://github.com/mockery/mockery.git",
                 "reference": "4db079511a283e5aba1b3c2fb19037c645e70fc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/padraic/mockery/zipball/4db079511a283e5aba1b3c2fb19037c645e70fc2",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/4db079511a283e5aba1b3c2fb19037c645e70fc2",
                 "reference": "4db079511a283e5aba1b3c2fb19037c645e70fc2",
                 "shasum": ""
             },
@@ -4329,25 +4279,31 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.1.5",
+            "version": "v3.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "368b9738d4033c8b93454cb0dbd45d305135a6d3"
+                "reference": "ddc23324e6cfe066f3dd34a37ff494fa80b617ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/368b9738d4033c8b93454cb0dbd45d305135a6d3",
-                "reference": "368b9738d4033c8b93454cb0dbd45d305135a6d3",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/ddc23324e6cfe066f3dd34a37ff494fa80b617ed",
+                "reference": "ddc23324e6cfe066f3dd34a37ff494fa80b617ed",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.5.9"
             },
+            "require-dev": {
+                "symfony/console": "~2.8|~3.0"
+            },
+            "suggest": {
+                "symfony/console": "For validating YAML files using the lint command"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.1-dev"
+                    "dev-master": "3.3-dev"
                 }
             },
             "autoload": {
@@ -4374,7 +4330,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-09-25T08:27:07+00:00"
+            "time": "2017-07-23T12:43:26+00:00"
         },
         {
             "name": "webmozart/assert",
