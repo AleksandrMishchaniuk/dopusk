@@ -147,11 +147,9 @@ return [
 
         //prod
         Collective\Html\HtmlServiceProvider::class,
-        // Frozennode\Administrator\AdministratorServiceProvider::class,
 
         //dev
         Barryvdh\Debugbar\ServiceProvider::class,
-        Orangehill\Iseed\IseedServiceProvider::class,
 
     ],
 

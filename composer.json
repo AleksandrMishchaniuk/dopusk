@@ -15,9 +15,8 @@
         "phpunit/phpunit": "~5.0",
         "phpspec/phpspec": "~2.1",
         "barryvdh/laravel-debugbar": "2.*",
-        "barryvdh/laravel-ide-helper": "2.*",
         "codeception/codeception": "2.2.*",
-        "orangehill/iseed": "dev-master"
+        "orangehill/iseed": "2.2"
     },
     "autoload": {
         "classmap": [
@@ -45,7 +44,6 @@
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
-            "php artisan ide-helper:generate",
             "php artisan optimize"
         ]
     },
