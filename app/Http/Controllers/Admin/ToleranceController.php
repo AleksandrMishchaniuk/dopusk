@@ -27,10 +27,11 @@ class ToleranceController extends BaseController
 
     public function getList(Request $request)
     {
-        $data = $request->all();
-        $system = $data['system'];
-        $range_id = (int) $data['range'];
-        $tolerances = Tolerance::byRange($range_id)->bySystem($system)->get();
+        $system = $request->input('system');
+        $range_id = (int) $request->input('range_id');
+        $quality_id = (int) $request->input('quality_id');
+        $field_id = (int) $request->input('field_id');
+        $tolerances = Tolerance::byRange($range_id)->bySystem($system)->byQuality($quality_id)->byField($field_id)->get();
         return $tolerances->toArray();
     }
 

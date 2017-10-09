@@ -15,6 +15,10 @@
           >
             <fieldset ng-disabled="!cur_item">
                 <div class="form-group{{ $errors->has('max_val') ? ' has-error' : '' }}">
+                  <small class="text-primary">
+                    @{{ prev_range_tolerance.max_val }}
+                  </small>
+                  <br>
                     {!! Form::label('max_val', 'Max') !!}
                     {!! Form::number('max_val', null, [
                       'class' => 'form-control',
@@ -31,6 +35,10 @@
                 </div>
 
                 <div class="form-group{{ $errors->has('min_val') ? ' has-error' : '' }}">
+                  <small class="text-primary">
+                    @{{ prev_range_tolerance.min_val }}
+                  </small>
+                  <br>
                     {!! Form::label('min_val', 'Min') !!}
                     {!! Form::number('min_val', null, [
                       'class' => 'form-control',
@@ -70,10 +78,6 @@
               <td ng-repeat="(f, field) in fields"
                   ng-click="editItem(field, quality, f, q)"
                   ng-class="{selected: grid[field.id][quality.id] == cur_item}"
-                  {{-- ng-keyup="console.log($event)"
-                  ng-keypress="console.log($event)"
-                  ng-keydown="keydownHandler($event)" --}}
-                  {{-- ng-keyup="keyupHandler(f, q, $event)" --}}
                   class="tolerance_cell">
                 <div class="tolerance_val">@{{ grid[field.id][quality.id]['max_val'] }}</div>
                 <div class="tolerance_val">@{{ grid[field.id][quality.id]['min_val'] }}</div>
@@ -87,17 +91,18 @@
             <input type="radio" name="system"
                                 id="system_@{{ system.title }}"
                                 value="@{{ system.title }}"
-                                ng-model="$parent.cur_system"
+                                ng-model="$parent.cur_system"/>
             <label for="system_@{{ system.title }}">
               @{{ (system.title == 'hole')? 'Отв.': 'Вал' }}
             </label>
           </div>
           <hr>
-          <div ng-repeat="range in ranges">
+          <div ng-repeat="(r, range) in ranges">
             <input type="radio" name="range"
                                 id="range_@{{ range.id }}"
-                                value="@{{ range.id }}"
+                                ng-value="range.id"
                                 ng-model="$parent.cur_range"
+                                ng-change="rangeChangedHandler(r, range)"/>
             <label for="range_@{{ range.id }}">
               @{{ range.min }} - @{{ range.max }}
             </label>

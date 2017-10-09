@@ -15,7 +15,7 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
       method: "GET",
       params: {
         system: system,
-        range: range_id
+        range_id: range_id
       }
     }).success(function(data){
       initGrid();
@@ -33,11 +33,11 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
 
   var changeCurSystemHendler = function (new_val, old_val, scope) {
       scope.updateGrid(new_val, scope.cur_range);
-  }
+  };
 
   var changeCurRangeHendler = function (new_val, old_val, scope) {
       scope.updateGrid(scope.cur_system, new_val);
-  }
+  };
 
   $scope.$watch('cur_system', changeCurSystemHendler);
   $scope.$watch('cur_range', changeCurRangeHendler);
@@ -50,7 +50,9 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
 
   function initRanges(response) {
     $scope.ranges = response;
-    $scope.cur_range = $scope.ranges[0]['id'];
+    $scope.cur_range_arr_id = 0;
+    $scope.prev_range_arr_id = $scope.cur_range_arr_id - 1;
+    $scope.cur_range = $scope.ranges[$scope.cur_range_arr_id]['id'];
   }
 
   function initQualities(response) {
@@ -90,6 +92,7 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
     $scope.cur_quality_arr_id = q;
     $scope.cur_max_val_focus = false;
     $scope.cur_max_val_focus = true;
+    fillPrevRangeTolerance();
   };
 
   $scope.updateField = function(){
@@ -129,34 +132,41 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
       case 38: // up
         var new_q = $scope.cur_quality_arr_id - 1;
         if ($scope.qualities[new_q] !== undefined) {
-          // $scope.cur_item = $scope.grid[$scope.fields[f][id]][$scope.qualities[new_q][id]];
           $scope.editItem($scope.fields[$scope.cur_field_arr_id], $scope.qualities[new_q], $scope.cur_field_arr_id, new_q);
         }
         break;
       case 40: // down
         var new_q = $scope.cur_quality_arr_id + 1;
         if ($scope.qualities[new_q] !== undefined) {
-          // $scope.cur_item = $scope.grid[$scope.fields[f][id]][$scope.qualities[new_q][id]];
           $scope.editItem($scope.fields[$scope.cur_field_arr_id], $scope.qualities[new_q], $scope.cur_field_arr_id, new_q);
         }
         break;
       case 37: // left
         var new_f = $scope.cur_field_arr_id - 1;
         if ($scope.fields[new_f] !== undefined) {
-          // $scope.cur_item = $scope.grid[$scope.fields[new_f][id]][$scope.qualities[q][id]];
           $scope.editItem($scope.fields[new_f], $scope.qualities[$scope.cur_quality_arr_id], new_f, $scope.cur_quality_arr_id);
         }
         break;
       case 39: // right
         var new_f = $scope.cur_field_arr_id + 1;
         if ($scope.fields[new_f] !== undefined) {
-          // $scope.cur_item = $scope.grid[$scope.fields[new_f][id]][$scope.qualities[q][id]];
           $scope.editItem($scope.fields[new_f], $scope.qualities[$scope.cur_quality_arr_id], new_f, $scope.cur_quality_arr_id);
+        }
+        break;
+      case 32: // space
+        if ($scope.prev_range_tolerance) {
+          $scope.cur_max_val = $scope.prev_range_tolerance.max_val;
+          $scope.cur_min_val = $scope.prev_range_tolerance.min_val;
         }
         break;
       default:
 
     }
+  };
+
+  $scope.rangeChangedHandler = function (r, range) {
+    $scope.cur_range_arr_id = r;
+    $scope.prev_range_arr_id = $scope.cur_range_arr_id - 1;
   };
 
   $scope.fieldBySystem = function(text){
@@ -176,6 +186,31 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
     $scope.cur_quality_name = '';
     $scope.cur_field_arr_id = undefined;
     $scope.cur_quality_arr_id = undefined;
+    $scope.prev_range_tolerance = {};
+  }
+  
+  function fillPrevRangeTolerance() {
+    if (!$scope.ranges[$scope.prev_range_arr_id]) {
+      return;
+    }
+    $http({
+      url: API_URL + 'tolerances',
+      method: "GET",
+      params: {
+        system: $scope.cur_system,
+        range_id: $scope.ranges[$scope.prev_range_arr_id].id,
+        field_id: $scope.cur_field,
+        quality_id: $scope.cur_quality
+      }
+    }).success(function(data){
+        let tolerance = data[0];
+        if (tolerance) {
+          toleranceToFloat(tolerance);
+          $scope.prev_range_tolerance = tolerance;
+        } else {
+          $scope.prev_range_tolerance = undefined;
+        }
+    })
   }
 });
 
