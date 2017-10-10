@@ -105,14 +105,12 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
       quality_id: $scope.cur_quality,
       id: $scope.cur_item.id
     };
-    console.log(params);
     $http({
       method: 'POST',
       url: API_URL + 'tolerances',
       data: $.param(params),
       headers: {'Content-Type': 'application/x-www-form-urlencoded'}
     }).success(function(data){
-      console.log(data);
       $scope.errors = {};
       if (data) {
         toleranceToFloat(data);
@@ -126,7 +124,6 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
   };
 
   $scope.keyupHandler = function (event) {
-    console.log(event.keyCode);
     event.stopPropagation();
     switch (event.keyCode) {
       case 38: // up
@@ -164,19 +161,28 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
     }
   };
 
+    $scope.toleranceChangeHandler = function (type) {
+        if (!$scope.delta) return;
+        if (type === 'max') {
+            $scope.cur_min_val = $scope.cur_max_val - $scope.delta;
+        } else if (type === 'min') {
+            $scope.cur_max_val = $scope.cur_min_val + $scope.delta;
+        }
+    };
+
   $scope.rangeChangedHandler = function (r, range) {
     $scope.cur_range_arr_id = r;
     $scope.prev_range_arr_id = $scope.cur_range_arr_id - 1;
   };
 
   $scope.fieldBySystem = function(text){
-    return ($scope.cur_system == 'hole')? text.toUpperCase(): text;
+    return ($scope.cur_system === 'hole')? text.toUpperCase(): text;
   };
 
   function toleranceToFloat (tolerance){
     tolerance.max_val = tolerance.max_val ? parseFloat(tolerance.max_val) : null;
     tolerance.min_val = tolerance.min_val ? parseFloat(tolerance.min_val) : null;
-  };
+  }
 
   function resetCurItemForm(){
     $scope.cur_max_val = '';
@@ -217,7 +223,7 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
 app.directive('focus', function($parse, $timeout){
   return {
     link: function(scope, element, attrs){
-      var model = $parse(attrs.focus)
+      var model = $parse(attrs.focus);
       scope.$watch(model, function(val){
         if(val === true){
           $timeout(function () {

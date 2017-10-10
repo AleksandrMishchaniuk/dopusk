@@ -8,7 +8,7 @@
         <div class="col-md-2 text-center">
           @{{ fieldBySystem(cur_field_name) + cur_quality_name }}
         </div>
-        <div class="col-md-10">
+        <div class="col-md-8">
           <form class="form-inline" method="POST" role="form"
                 name="tolerance_form" novalidate="novalidate"
                 ng-submit="updateField()"
@@ -26,6 +26,7 @@
                       'focus' => 'cur_max_val_focus',
                       'min' => '@{{ cur_min_val + 0.001 }}',
                       'ng-keyup' => 'keyupHandler($event)',
+                      'ng-change' => 'toleranceChangeHandler(\'max\')',
                     ]) !!}
                     <br>
                     <small class="text-danger">
@@ -45,6 +46,7 @@
                       'ng-model' => 'cur_min_val',
                       'max' => '@{{ cur_max_val }}',
                       'ng-keyup' => 'keyupHandler($event)',
+                      'ng-change' => 'toleranceChangeHandler(\'min\')',
                     ]) !!}
                     <br>
                     <small class="text-danger">
@@ -61,6 +63,10 @@
                 </div>
             </fieldset>
           {!! Form::close() !!}
+        </div>
+        <div class="col-md-2">
+          <label>Поле</label>
+          <input type="text" ng-model="delta" class="form-control">
         </div>
       </div>
 
