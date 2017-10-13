@@ -24,7 +24,7 @@
                       'class' => 'form-control',
                       'ng-model' => 'cur_max_val',
                       'focus' => 'cur_max_val_focus',
-                      'min' => '@{{ cur_min_val + 0.001 }}',
+                      'min' => '@{{ min_input_val }}',
                       'ng-keyup' => 'keyupHandler($event)',
                       'ng-change' => 'toleranceChangeHandler(\'max\')',
                     ]) !!}
@@ -66,7 +66,7 @@
         </div>
         <div class="col-md-2">
           <label>Поле</label>
-          <input type="text" ng-model="delta" class="form-control">
+          <input type="number" ng-model="delta" class="form-control">
         </div>
       </div>
 

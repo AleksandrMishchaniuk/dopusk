@@ -179,14 +179,19 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
     return ($scope.cur_system === 'hole')? text.toUpperCase(): text;
   };
 
+  $scope.$watch('cur_min_val', function(new_val){
+    $scope.min_input_val = new_val + 0.001;
+  });
+
   function toleranceToFloat (tolerance){
     tolerance.max_val = tolerance.max_val ? parseFloat(tolerance.max_val) : null;
     tolerance.min_val = tolerance.min_val ? parseFloat(tolerance.min_val) : null;
   }
 
   function resetCurItemForm(){
-    $scope.cur_max_val = '';
-    $scope.cur_min_val = '';
+    $scope.cur_max_val = null;
+    $scope.cur_min_val = null;
+    $scope.min_input_val = null;
     $scope.cur_item = undefined;
     $scope.cur_field_name = '';
     $scope.cur_quality_name = '';
