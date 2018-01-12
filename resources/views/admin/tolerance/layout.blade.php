@@ -8,5 +8,5 @@
 @stop
 
 @section('template_scripts')
-  {!! Html::script('js/admin/tolerance.js') !!}
+  {!! Html::script('js/pages/admin/tolerance.js') !!}
 @stop

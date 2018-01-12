@@ -20,8 +20,8 @@ class UsersTableSeeder extends Seeder
                 'id' => 1,
                 'email' => env('ADMIN_EMAIL'),
                 'password' => bcrypt(env('ADMIN_PASSWORD')),
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
         ));
 

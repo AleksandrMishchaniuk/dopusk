@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Validator;
+use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -14,13 +14,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-      Validator::extend('greater_than', function($attribute, $value, $parameters, $validator){
-          $value = (float) $value;
-          $other_field = $parameters[0];
-          $data = $validator->getData();
-          $other_value = (float) $data[$other_field];
-          return ($value > $other_value);
-      });
+        Validator::extend('greater_than', function($attribute, $value, $parameters, $validator){
+            $value = (float) $value;
+            $other_field = $parameters[0];
+            $data = $validator->getData();
+            $other_value = (float) $data[$other_field];
+            return ($value > $other_value);
+        });
     }
 
     /**
@@ -32,7 +32,8 @@ class AppServiceProvider extends ServiceProvider
     {
         if($this->app->environment() === 'local') {
             $this->app->register(\Orangehill\Iseed\IseedServiceProvider::class);
+            $this->app->register(\Barryvdh\Debugbar\ServiceProvider::class);
+            $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
         }
-
     }
 }

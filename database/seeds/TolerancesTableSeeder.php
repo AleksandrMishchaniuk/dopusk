@@ -26,8 +26,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             1 => 
             array (
@@ -38,8 +38,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             2 => 
             array (
@@ -50,8 +50,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             3 => 
             array (
@@ -62,8 +62,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             4 => 
             array (
@@ -74,8 +74,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             5 => 
             array (
@@ -86,8 +86,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             6 => 
             array (
@@ -98,8 +98,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             7 => 
             array (
@@ -110,8 +110,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             8 => 
             array (
@@ -122,8 +122,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             9 => 
             array (
@@ -134,8 +134,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             10 => 
             array (
@@ -146,8 +146,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             11 => 
             array (
@@ -158,8 +158,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             12 => 
             array (
@@ -170,8 +170,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             13 => 
             array (
@@ -182,8 +182,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             14 => 
             array (
@@ -194,8 +194,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             15 => 
             array (
@@ -206,8 +206,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             16 => 
             array (
@@ -218,8 +218,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             17 => 
             array (
@@ -230,8 +230,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             18 => 
             array (
@@ -242,8 +242,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             19 => 
             array (
@@ -254,8 +254,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             20 => 
             array (
@@ -266,8 +266,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             21 => 
             array (
@@ -278,8 +278,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             22 => 
             array (
@@ -290,8 +290,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             23 => 
             array (
@@ -302,8 +302,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             24 => 
             array (
@@ -314,8 +314,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             25 => 
             array (
@@ -326,8 +326,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             26 => 
             array (
@@ -338,8 +338,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             27 => 
             array (
@@ -350,8 +350,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             28 => 
             array (
@@ -362,8 +362,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             29 => 
             array (
@@ -374,8 +374,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             30 => 
             array (
@@ -386,8 +386,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             31 => 
             array (
@@ -398,8 +398,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             32 => 
             array (
@@ -410,8 +410,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             33 => 
             array (
@@ -422,8 +422,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             34 => 
             array (
@@ -434,8 +434,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             35 => 
             array (
@@ -446,8 +446,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             36 => 
             array (
@@ -458,8 +458,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             37 => 
             array (
@@ -470,8 +470,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             38 => 
             array (
@@ -482,8 +482,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             39 => 
             array (
@@ -494,8 +494,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             40 => 
             array (
@@ -506,8 +506,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             41 => 
             array (
@@ -518,8 +518,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             42 => 
             array (
@@ -530,8 +530,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             43 => 
             array (
@@ -542,8 +542,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             44 => 
             array (
@@ -554,8 +554,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             45 => 
             array (
@@ -566,8 +566,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             46 => 
             array (
@@ -578,8 +578,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             47 => 
             array (
@@ -590,8 +590,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             48 => 
             array (
@@ -602,8 +602,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             49 => 
             array (
@@ -614,8 +614,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             50 => 
             array (
@@ -626,8 +626,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             51 => 
             array (
@@ -638,8 +638,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             52 => 
             array (
@@ -650,8 +650,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             53 => 
             array (
@@ -662,8 +662,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             54 => 
             array (
@@ -674,8 +674,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             55 => 
             array (
@@ -686,8 +686,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             56 => 
             array (
@@ -698,8 +698,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             57 => 
             array (
@@ -710,8 +710,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             58 => 
             array (
@@ -722,8 +722,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             59 => 
             array (
@@ -734,8 +734,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             60 => 
             array (
@@ -746,8 +746,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             61 => 
             array (
@@ -758,8 +758,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             62 => 
             array (
@@ -770,8 +770,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             63 => 
             array (
@@ -782,8 +782,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             64 => 
             array (
@@ -794,8 +794,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             65 => 
             array (
@@ -806,8 +806,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             66 => 
             array (
@@ -818,8 +818,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             67 => 
             array (
@@ -830,8 +830,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             68 => 
             array (
@@ -842,8 +842,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             69 => 
             array (
@@ -854,8 +854,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             70 => 
             array (
@@ -866,8 +866,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             71 => 
             array (
@@ -878,8 +878,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             72 => 
             array (
@@ -890,8 +890,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             73 => 
             array (
@@ -902,8 +902,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             74 => 
             array (
@@ -914,8 +914,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             75 => 
             array (
@@ -926,8 +926,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             76 => 
             array (
@@ -938,8 +938,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             77 => 
             array (
@@ -950,8 +950,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             78 => 
             array (
@@ -962,8 +962,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             79 => 
             array (
@@ -974,8 +974,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             80 => 
             array (
@@ -986,8 +986,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             81 => 
             array (
@@ -998,8 +998,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             82 => 
             array (
@@ -1010,8 +1010,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             83 => 
             array (
@@ -1022,8 +1022,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             84 => 
             array (
@@ -1034,8 +1034,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             85 => 
             array (
@@ -1046,8 +1046,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             86 => 
             array (
@@ -1058,8 +1058,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             87 => 
             array (
@@ -1070,8 +1070,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             88 => 
             array (
@@ -1082,8 +1082,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             89 => 
             array (
@@ -1094,8 +1094,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             90 => 
             array (
@@ -1106,8 +1106,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             91 => 
             array (
@@ -1118,8 +1118,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             92 => 
             array (
@@ -1130,8 +1130,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             93 => 
             array (
@@ -1142,8 +1142,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             94 => 
             array (
@@ -1154,8 +1154,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             95 => 
             array (
@@ -1166,8 +1166,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             96 => 
             array (
@@ -1178,8 +1178,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             97 => 
             array (
@@ -1190,8 +1190,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             98 => 
             array (
@@ -1202,8 +1202,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             99 => 
             array (
@@ -1214,8 +1214,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             100 => 
             array (
@@ -1226,8 +1226,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             101 => 
             array (
@@ -1238,8 +1238,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             102 => 
             array (
@@ -1250,8 +1250,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             103 => 
             array (
@@ -1262,8 +1262,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             104 => 
             array (
@@ -1274,8 +1274,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             105 => 
             array (
@@ -1286,8 +1286,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             106 => 
             array (
@@ -1298,8 +1298,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             107 => 
             array (
@@ -1310,8 +1310,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             108 => 
             array (
@@ -1322,8 +1322,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             109 => 
             array (
@@ -1334,8 +1334,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             110 => 
             array (
@@ -1346,8 +1346,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             111 => 
             array (
@@ -1358,8 +1358,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             112 => 
             array (
@@ -1370,8 +1370,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             113 => 
             array (
@@ -1382,8 +1382,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             114 => 
             array (
@@ -1394,8 +1394,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             115 => 
             array (
@@ -1406,8 +1406,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             116 => 
             array (
@@ -1418,8 +1418,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             117 => 
             array (
@@ -1430,8 +1430,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             118 => 
             array (
@@ -1442,8 +1442,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             119 => 
             array (
@@ -1454,8 +1454,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             120 => 
             array (
@@ -1466,8 +1466,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             121 => 
             array (
@@ -1478,8 +1478,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             122 => 
             array (
@@ -1490,8 +1490,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             123 => 
             array (
@@ -1502,8 +1502,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             124 => 
             array (
@@ -1514,8 +1514,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             125 => 
             array (
@@ -1526,8 +1526,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             126 => 
             array (
@@ -1538,8 +1538,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             127 => 
             array (
@@ -1550,8 +1550,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             128 => 
             array (
@@ -1562,8 +1562,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             129 => 
             array (
@@ -1574,8 +1574,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             130 => 
             array (
@@ -1586,8 +1586,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             131 => 
             array (
@@ -1598,8 +1598,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             132 => 
             array (
@@ -1610,8 +1610,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             133 => 
             array (
@@ -1622,8 +1622,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             134 => 
             array (
@@ -1634,8 +1634,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             135 => 
             array (
@@ -1646,8 +1646,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             136 => 
             array (
@@ -1658,8 +1658,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             137 => 
             array (
@@ -1670,8 +1670,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             138 => 
             array (
@@ -1682,8 +1682,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             139 => 
             array (
@@ -1694,8 +1694,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             140 => 
             array (
@@ -1706,8 +1706,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             141 => 
             array (
@@ -1718,8 +1718,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             142 => 
             array (
@@ -1730,8 +1730,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             143 => 
             array (
@@ -1742,8 +1742,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             144 => 
             array (
@@ -1754,8 +1754,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             145 => 
             array (
@@ -1766,8 +1766,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             146 => 
             array (
@@ -1778,8 +1778,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             147 => 
             array (
@@ -1790,8 +1790,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             148 => 
             array (
@@ -1802,8 +1802,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             149 => 
             array (
@@ -1814,8 +1814,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             150 => 
             array (
@@ -1826,8 +1826,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             151 => 
             array (
@@ -1838,8 +1838,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             152 => 
             array (
@@ -1850,8 +1850,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             153 => 
             array (
@@ -1862,8 +1862,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             154 => 
             array (
@@ -1874,8 +1874,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             155 => 
             array (
@@ -1886,8 +1886,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             156 => 
             array (
@@ -1898,8 +1898,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             157 => 
             array (
@@ -1910,8 +1910,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             158 => 
             array (
@@ -1922,8 +1922,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             159 => 
             array (
@@ -1934,8 +1934,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             160 => 
             array (
@@ -1946,8 +1946,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             161 => 
             array (
@@ -1958,8 +1958,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             162 => 
             array (
@@ -1970,8 +1970,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             163 => 
             array (
@@ -1982,8 +1982,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             164 => 
             array (
@@ -1994,8 +1994,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             165 => 
             array (
@@ -2006,8 +2006,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             166 => 
             array (
@@ -2018,8 +2018,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             167 => 
             array (
@@ -2030,8 +2030,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             168 => 
             array (
@@ -2042,8 +2042,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             169 => 
             array (
@@ -2054,8 +2054,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             170 => 
             array (
@@ -2066,8 +2066,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             171 => 
             array (
@@ -2078,8 +2078,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             172 => 
             array (
@@ -2090,8 +2090,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             173 => 
             array (
@@ -2102,8 +2102,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             174 => 
             array (
@@ -2114,8 +2114,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             175 => 
             array (
@@ -2126,8 +2126,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             176 => 
             array (
@@ -2138,8 +2138,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             177 => 
             array (
@@ -2150,8 +2150,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             178 => 
             array (
@@ -2162,8 +2162,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             179 => 
             array (
@@ -2174,8 +2174,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             180 => 
             array (
@@ -2186,8 +2186,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             181 => 
             array (
@@ -2198,8 +2198,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             182 => 
             array (
@@ -2210,8 +2210,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             183 => 
             array (
@@ -2222,8 +2222,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             184 => 
             array (
@@ -2234,8 +2234,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             185 => 
             array (
@@ -2246,8 +2246,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             186 => 
             array (
@@ -2258,8 +2258,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             187 => 
             array (
@@ -2270,8 +2270,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             188 => 
             array (
@@ -2282,8 +2282,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             189 => 
             array (
@@ -2294,8 +2294,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             190 => 
             array (
@@ -2306,8 +2306,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             191 => 
             array (
@@ -2318,8 +2318,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             192 => 
             array (
@@ -2330,8 +2330,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             193 => 
             array (
@@ -2342,8 +2342,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             194 => 
             array (
@@ -2354,8 +2354,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             195 => 
             array (
@@ -2366,8 +2366,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             196 => 
             array (
@@ -2378,8 +2378,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             197 => 
             array (
@@ -2390,8 +2390,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             198 => 
             array (
@@ -2402,8 +2402,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             199 => 
             array (
@@ -2414,8 +2414,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             200 => 
             array (
@@ -2426,8 +2426,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             201 => 
             array (
@@ -2438,8 +2438,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             202 => 
             array (
@@ -2450,8 +2450,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             203 => 
             array (
@@ -2462,8 +2462,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             204 => 
             array (
@@ -2474,8 +2474,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             205 => 
             array (
@@ -2486,8 +2486,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             206 => 
             array (
@@ -2498,8 +2498,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             207 => 
             array (
@@ -2510,8 +2510,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             208 => 
             array (
@@ -2522,8 +2522,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             209 => 
             array (
@@ -2534,8 +2534,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             210 => 
             array (
@@ -2546,8 +2546,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             211 => 
             array (
@@ -2558,8 +2558,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             212 => 
             array (
@@ -2570,8 +2570,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             213 => 
             array (
@@ -2582,8 +2582,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             214 => 
             array (
@@ -2594,8 +2594,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             215 => 
             array (
@@ -2606,8 +2606,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             216 => 
             array (
@@ -2618,8 +2618,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             217 => 
             array (
@@ -2630,8 +2630,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             218 => 
             array (
@@ -2642,8 +2642,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             219 => 
             array (
@@ -2654,8 +2654,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             220 => 
             array (
@@ -2666,8 +2666,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             221 => 
             array (
@@ -2678,8 +2678,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             222 => 
             array (
@@ -2690,8 +2690,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             223 => 
             array (
@@ -2702,8 +2702,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             224 => 
             array (
@@ -2714,8 +2714,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             225 => 
             array (
@@ -2726,8 +2726,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             226 => 
             array (
@@ -2738,8 +2738,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             227 => 
             array (
@@ -2750,8 +2750,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             228 => 
             array (
@@ -2762,8 +2762,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             229 => 
             array (
@@ -2774,8 +2774,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             230 => 
             array (
@@ -2786,8 +2786,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             231 => 
             array (
@@ -2798,8 +2798,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             232 => 
             array (
@@ -2810,8 +2810,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             233 => 
             array (
@@ -2822,8 +2822,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             234 => 
             array (
@@ -2834,8 +2834,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             235 => 
             array (
@@ -2846,8 +2846,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             236 => 
             array (
@@ -2858,8 +2858,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             237 => 
             array (
@@ -2870,8 +2870,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             238 => 
             array (
@@ -2882,8 +2882,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             239 => 
             array (
@@ -2894,8 +2894,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             240 => 
             array (
@@ -2906,8 +2906,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 1,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             241 => 
             array (
@@ -2918,8 +2918,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 1,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             242 => 
             array (
@@ -2930,8 +2930,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 2,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             243 => 
             array (
@@ -2942,8 +2942,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 2,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             244 => 
             array (
@@ -2954,8 +2954,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 4,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             245 => 
             array (
@@ -2966,8 +2966,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 4,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             246 => 
             array (
@@ -2978,8 +2978,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 5,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             247 => 
             array (
@@ -2990,8 +2990,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 5,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             248 => 
             array (
@@ -3002,8 +3002,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 6,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             249 => 
             array (
@@ -3014,8 +3014,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 6,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             250 => 
             array (
@@ -3026,8 +3026,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             251 => 
             array (
@@ -3038,8 +3038,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             252 => 
             array (
@@ -3050,8 +3050,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             253 => 
             array (
@@ -3062,8 +3062,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             254 => 
             array (
@@ -3074,8 +3074,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             255 => 
             array (
@@ -3086,8 +3086,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             256 => 
             array (
@@ -3098,8 +3098,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             257 => 
             array (
@@ -3110,8 +3110,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             258 => 
             array (
@@ -3122,8 +3122,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             259 => 
             array (
@@ -3134,8 +3134,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             260 => 
             array (
@@ -3146,8 +3146,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             261 => 
             array (
@@ -3158,8 +3158,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             262 => 
             array (
@@ -3170,8 +3170,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             263 => 
             array (
@@ -3182,8 +3182,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             264 => 
             array (
@@ -3194,8 +3194,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             265 => 
             array (
@@ -3206,8 +3206,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             266 => 
             array (
@@ -3218,8 +3218,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             267 => 
             array (
@@ -3230,8 +3230,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             268 => 
             array (
@@ -3242,8 +3242,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             269 => 
             array (
@@ -3254,8 +3254,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             270 => 
             array (
@@ -3266,8 +3266,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             271 => 
             array (
@@ -3278,8 +3278,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             272 => 
             array (
@@ -3290,8 +3290,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             273 => 
             array (
@@ -3302,8 +3302,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             274 => 
             array (
@@ -3314,8 +3314,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             275 => 
             array (
@@ -3326,8 +3326,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             276 => 
             array (
@@ -3338,8 +3338,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             277 => 
             array (
@@ -3350,8 +3350,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             278 => 
             array (
@@ -3362,8 +3362,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             279 => 
             array (
@@ -3374,8 +3374,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             280 => 
             array (
@@ -3386,8 +3386,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             281 => 
             array (
@@ -3398,8 +3398,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             282 => 
             array (
@@ -3410,8 +3410,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             283 => 
             array (
@@ -3422,8 +3422,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             284 => 
             array (
@@ -3434,8 +3434,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             285 => 
             array (
@@ -3446,8 +3446,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             286 => 
             array (
@@ -3458,8 +3458,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             287 => 
             array (
@@ -3470,8 +3470,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             288 => 
             array (
@@ -3482,8 +3482,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             289 => 
             array (
@@ -3494,8 +3494,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             290 => 
             array (
@@ -3506,8 +3506,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             291 => 
             array (
@@ -3518,8 +3518,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             292 => 
             array (
@@ -3530,8 +3530,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             293 => 
             array (
@@ -3542,8 +3542,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             294 => 
             array (
@@ -3554,8 +3554,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             295 => 
             array (
@@ -3566,8 +3566,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             296 => 
             array (
@@ -3578,8 +3578,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             297 => 
             array (
@@ -3590,8 +3590,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             298 => 
             array (
@@ -3602,8 +3602,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             299 => 
             array (
@@ -3614,8 +3614,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             300 => 
             array (
@@ -3626,8 +3626,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             301 => 
             array (
@@ -3638,8 +3638,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             302 => 
             array (
@@ -3650,8 +3650,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             303 => 
             array (
@@ -3662,8 +3662,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             304 => 
             array (
@@ -3674,8 +3674,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             305 => 
             array (
@@ -3686,8 +3686,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             306 => 
             array (
@@ -3698,8 +3698,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             307 => 
             array (
@@ -3710,8 +3710,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             308 => 
             array (
@@ -3722,8 +3722,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             309 => 
             array (
@@ -3734,8 +3734,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             310 => 
             array (
@@ -3746,8 +3746,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             311 => 
             array (
@@ -3758,8 +3758,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             312 => 
             array (
@@ -3770,8 +3770,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             313 => 
             array (
@@ -3782,8 +3782,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             314 => 
             array (
@@ -3794,8 +3794,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             315 => 
             array (
@@ -3806,8 +3806,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             316 => 
             array (
@@ -3818,8 +3818,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             317 => 
             array (
@@ -3830,8 +3830,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             318 => 
             array (
@@ -3842,8 +3842,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             319 => 
             array (
@@ -3854,8 +3854,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             320 => 
             array (
@@ -3866,8 +3866,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             321 => 
             array (
@@ -3878,8 +3878,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             322 => 
             array (
@@ -3890,8 +3890,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             323 => 
             array (
@@ -3902,8 +3902,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             324 => 
             array (
@@ -3914,8 +3914,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             325 => 
             array (
@@ -3926,8 +3926,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             326 => 
             array (
@@ -3938,8 +3938,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             327 => 
             array (
@@ -3950,8 +3950,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             328 => 
             array (
@@ -3962,8 +3962,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             329 => 
             array (
@@ -3974,8 +3974,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             330 => 
             array (
@@ -3986,8 +3986,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             331 => 
             array (
@@ -3998,8 +3998,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             332 => 
             array (
@@ -4010,8 +4010,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             333 => 
             array (
@@ -4022,8 +4022,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             334 => 
             array (
@@ -4034,8 +4034,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             335 => 
             array (
@@ -4046,8 +4046,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             336 => 
             array (
@@ -4058,8 +4058,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             337 => 
             array (
@@ -4070,8 +4070,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             338 => 
             array (
@@ -4082,8 +4082,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             339 => 
             array (
@@ -4094,8 +4094,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             340 => 
             array (
@@ -4106,8 +4106,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             341 => 
             array (
@@ -4118,8 +4118,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             342 => 
             array (
@@ -4130,8 +4130,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             343 => 
             array (
@@ -4142,8 +4142,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             344 => 
             array (
@@ -4154,8 +4154,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             345 => 
             array (
@@ -4166,8 +4166,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             346 => 
             array (
@@ -4178,8 +4178,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             347 => 
             array (
@@ -4190,8 +4190,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             348 => 
             array (
@@ -4202,8 +4202,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             349 => 
             array (
@@ -4214,8 +4214,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             350 => 
             array (
@@ -4226,8 +4226,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             351 => 
             array (
@@ -4238,8 +4238,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             352 => 
             array (
@@ -4250,8 +4250,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             353 => 
             array (
@@ -4262,8 +4262,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             354 => 
             array (
@@ -4274,8 +4274,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             355 => 
             array (
@@ -4286,8 +4286,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             356 => 
             array (
@@ -4298,8 +4298,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             357 => 
             array (
@@ -4310,8 +4310,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             358 => 
             array (
@@ -4322,8 +4322,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             359 => 
             array (
@@ -4334,8 +4334,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             360 => 
             array (
@@ -4346,8 +4346,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             361 => 
             array (
@@ -4358,8 +4358,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             362 => 
             array (
@@ -4370,8 +4370,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             363 => 
             array (
@@ -4382,8 +4382,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             364 => 
             array (
@@ -4394,8 +4394,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             365 => 
             array (
@@ -4406,8 +4406,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             366 => 
             array (
@@ -4418,8 +4418,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             367 => 
             array (
@@ -4430,8 +4430,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             368 => 
             array (
@@ -4442,8 +4442,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             369 => 
             array (
@@ -4454,8 +4454,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             370 => 
             array (
@@ -4466,8 +4466,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             371 => 
             array (
@@ -4478,8 +4478,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             372 => 
             array (
@@ -4490,8 +4490,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             373 => 
             array (
@@ -4502,8 +4502,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             374 => 
             array (
@@ -4514,8 +4514,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             375 => 
             array (
@@ -4526,8 +4526,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             376 => 
             array (
@@ -4538,8 +4538,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             377 => 
             array (
@@ -4550,8 +4550,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             378 => 
             array (
@@ -4562,8 +4562,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             379 => 
             array (
@@ -4574,8 +4574,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             380 => 
             array (
@@ -4586,8 +4586,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             381 => 
             array (
@@ -4598,8 +4598,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             382 => 
             array (
@@ -4610,8 +4610,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             383 => 
             array (
@@ -4622,8 +4622,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             384 => 
             array (
@@ -4634,8 +4634,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             385 => 
             array (
@@ -4646,8 +4646,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             386 => 
             array (
@@ -4658,8 +4658,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             387 => 
             array (
@@ -4670,8 +4670,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             388 => 
             array (
@@ -4682,8 +4682,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             389 => 
             array (
@@ -4694,8 +4694,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             390 => 
             array (
@@ -4706,8 +4706,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             391 => 
             array (
@@ -4718,8 +4718,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             392 => 
             array (
@@ -4730,8 +4730,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             393 => 
             array (
@@ -4742,8 +4742,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             394 => 
             array (
@@ -4754,8 +4754,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             395 => 
             array (
@@ -4766,8 +4766,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             396 => 
             array (
@@ -4778,8 +4778,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             397 => 
             array (
@@ -4790,8 +4790,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             398 => 
             array (
@@ -4802,8 +4802,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             399 => 
             array (
@@ -4814,8 +4814,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             400 => 
             array (
@@ -4826,8 +4826,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             401 => 
             array (
@@ -4838,8 +4838,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             402 => 
             array (
@@ -4850,8 +4850,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             403 => 
             array (
@@ -4862,8 +4862,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             404 => 
             array (
@@ -4874,8 +4874,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             405 => 
             array (
@@ -4886,8 +4886,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             406 => 
             array (
@@ -4898,8 +4898,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             407 => 
             array (
@@ -4910,8 +4910,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             408 => 
             array (
@@ -4922,8 +4922,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             409 => 
             array (
@@ -4934,8 +4934,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             410 => 
             array (
@@ -4946,8 +4946,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             411 => 
             array (
@@ -4958,8 +4958,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             412 => 
             array (
@@ -4970,8 +4970,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             413 => 
             array (
@@ -4982,8 +4982,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             414 => 
             array (
@@ -4994,8 +4994,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             415 => 
             array (
@@ -5006,8 +5006,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             416 => 
             array (
@@ -5018,8 +5018,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             417 => 
             array (
@@ -5030,8 +5030,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             418 => 
             array (
@@ -5042,8 +5042,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             419 => 
             array (
@@ -5054,8 +5054,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             420 => 
             array (
@@ -5066,8 +5066,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             421 => 
             array (
@@ -5078,8 +5078,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             422 => 
             array (
@@ -5090,8 +5090,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             423 => 
             array (
@@ -5102,8 +5102,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             424 => 
             array (
@@ -5114,8 +5114,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             425 => 
             array (
@@ -5126,8 +5126,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             426 => 
             array (
@@ -5138,8 +5138,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             427 => 
             array (
@@ -5150,8 +5150,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             428 => 
             array (
@@ -5162,8 +5162,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             429 => 
             array (
@@ -5174,8 +5174,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             430 => 
             array (
@@ -5186,8 +5186,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             431 => 
             array (
@@ -5198,8 +5198,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             432 => 
             array (
@@ -5210,8 +5210,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             433 => 
             array (
@@ -5222,8 +5222,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             434 => 
             array (
@@ -5234,8 +5234,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             435 => 
             array (
@@ -5246,8 +5246,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             436 => 
             array (
@@ -5258,8 +5258,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             437 => 
             array (
@@ -5270,8 +5270,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             438 => 
             array (
@@ -5282,8 +5282,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             439 => 
             array (
@@ -5294,8 +5294,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             440 => 
             array (
@@ -5306,8 +5306,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             441 => 
             array (
@@ -5318,8 +5318,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             442 => 
             array (
@@ -5330,8 +5330,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             443 => 
             array (
@@ -5342,8 +5342,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             444 => 
             array (
@@ -5354,8 +5354,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             445 => 
             array (
@@ -5366,8 +5366,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             446 => 
             array (
@@ -5378,8 +5378,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             447 => 
             array (
@@ -5390,8 +5390,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             448 => 
             array (
@@ -5402,8 +5402,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             449 => 
             array (
@@ -5414,8 +5414,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             450 => 
             array (
@@ -5426,8 +5426,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             451 => 
             array (
@@ -5438,8 +5438,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             452 => 
             array (
@@ -5450,8 +5450,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             453 => 
             array (
@@ -5462,8 +5462,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             454 => 
             array (
@@ -5474,8 +5474,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             455 => 
             array (
@@ -5486,8 +5486,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             456 => 
             array (
@@ -5498,8 +5498,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             457 => 
             array (
@@ -5510,8 +5510,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             458 => 
             array (
@@ -5522,8 +5522,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             459 => 
             array (
@@ -5534,8 +5534,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             460 => 
             array (
@@ -5546,8 +5546,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             461 => 
             array (
@@ -5558,8 +5558,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             462 => 
             array (
@@ -5570,8 +5570,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             463 => 
             array (
@@ -5582,8 +5582,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             464 => 
             array (
@@ -5594,8 +5594,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             465 => 
             array (
@@ -5606,8 +5606,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             466 => 
             array (
@@ -5618,8 +5618,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             467 => 
             array (
@@ -5630,8 +5630,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             468 => 
             array (
@@ -5642,8 +5642,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             469 => 
             array (
@@ -5654,8 +5654,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             470 => 
             array (
@@ -5666,8 +5666,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             471 => 
             array (
@@ -5678,8 +5678,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             472 => 
             array (
@@ -5690,8 +5690,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             473 => 
             array (
@@ -5702,8 +5702,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             474 => 
             array (
@@ -5714,8 +5714,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             475 => 
             array (
@@ -5726,8 +5726,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             476 => 
             array (
@@ -5738,8 +5738,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             477 => 
             array (
@@ -5750,8 +5750,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             478 => 
             array (
@@ -5762,8 +5762,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             479 => 
             array (
@@ -5774,8 +5774,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             480 => 
             array (
@@ -5786,8 +5786,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             481 => 
             array (
@@ -5798,8 +5798,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             482 => 
             array (
@@ -5810,8 +5810,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             483 => 
             array (
@@ -5822,8 +5822,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             484 => 
             array (
@@ -5834,8 +5834,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             485 => 
             array (
@@ -5846,8 +5846,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             486 => 
             array (
@@ -5858,8 +5858,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             487 => 
             array (
@@ -5870,8 +5870,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             488 => 
             array (
@@ -5882,8 +5882,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             489 => 
             array (
@@ -5894,8 +5894,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             490 => 
             array (
@@ -5906,8 +5906,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             491 => 
             array (
@@ -5918,8 +5918,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             492 => 
             array (
@@ -5930,8 +5930,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             493 => 
             array (
@@ -5942,8 +5942,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             494 => 
             array (
@@ -5954,8 +5954,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             495 => 
             array (
@@ -5966,8 +5966,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             496 => 
             array (
@@ -5978,8 +5978,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             497 => 
             array (
@@ -5990,8 +5990,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             498 => 
             array (
@@ -6002,8 +6002,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             499 => 
             array (
@@ -6014,8 +6014,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
         ));
         \DB::table('tolerances')->insert(array (
@@ -6028,8 +6028,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             1 => 
             array (
@@ -6040,8 +6040,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             2 => 
             array (
@@ -6052,8 +6052,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             3 => 
             array (
@@ -6064,8 +6064,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             4 => 
             array (
@@ -6076,8 +6076,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             5 => 
             array (
@@ -6088,8 +6088,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             6 => 
             array (
@@ -6100,8 +6100,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             7 => 
             array (
@@ -6112,8 +6112,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             8 => 
             array (
@@ -6124,8 +6124,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             9 => 
             array (
@@ -6136,8 +6136,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             10 => 
             array (
@@ -6148,8 +6148,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             11 => 
             array (
@@ -6160,8 +6160,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             12 => 
             array (
@@ -6172,8 +6172,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             13 => 
             array (
@@ -6184,8 +6184,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             14 => 
             array (
@@ -6196,8 +6196,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             15 => 
             array (
@@ -6208,8 +6208,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             16 => 
             array (
@@ -6220,8 +6220,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             17 => 
             array (
@@ -6232,8 +6232,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 16,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             18 => 
             array (
@@ -6244,8 +6244,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 9,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             19 => 
             array (
@@ -6256,8 +6256,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             20 => 
             array (
@@ -6268,8 +6268,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             21 => 
             array (
@@ -6280,8 +6280,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             22 => 
             array (
@@ -6292,8 +6292,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             23 => 
             array (
@@ -6304,8 +6304,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             24 => 
             array (
@@ -6316,8 +6316,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             25 => 
             array (
@@ -6328,8 +6328,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             26 => 
             array (
@@ -6340,8 +6340,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             27 => 
             array (
@@ -6352,8 +6352,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             28 => 
             array (
@@ -6364,8 +6364,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             29 => 
             array (
@@ -6376,8 +6376,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             30 => 
             array (
@@ -6388,8 +6388,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             31 => 
             array (
@@ -6400,8 +6400,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             32 => 
             array (
@@ -6412,8 +6412,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             33 => 
             array (
@@ -6424,8 +6424,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             34 => 
             array (
@@ -6436,8 +6436,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             35 => 
             array (
@@ -6448,8 +6448,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             36 => 
             array (
@@ -6460,8 +6460,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             37 => 
             array (
@@ -6472,8 +6472,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             38 => 
             array (
@@ -6484,8 +6484,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             39 => 
             array (
@@ -6496,8 +6496,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             40 => 
             array (
@@ -6508,8 +6508,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             41 => 
             array (
@@ -6520,8 +6520,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             42 => 
             array (
@@ -6532,8 +6532,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             43 => 
             array (
@@ -6544,8 +6544,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             44 => 
             array (
@@ -6556,8 +6556,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             45 => 
             array (
@@ -6568,8 +6568,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             46 => 
             array (
@@ -6580,8 +6580,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             47 => 
             array (
@@ -6592,8 +6592,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             48 => 
             array (
@@ -6604,8 +6604,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             49 => 
             array (
@@ -6616,8 +6616,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             50 => 
             array (
@@ -6628,8 +6628,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             51 => 
             array (
@@ -6640,8 +6640,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             52 => 
             array (
@@ -6652,8 +6652,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             53 => 
             array (
@@ -6664,8 +6664,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             54 => 
             array (
@@ -6676,8 +6676,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             55 => 
             array (
@@ -6688,8 +6688,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             56 => 
             array (
@@ -6700,8 +6700,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             57 => 
             array (
@@ -6712,8 +6712,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             58 => 
             array (
@@ -6724,8 +6724,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             59 => 
             array (
@@ -6736,8 +6736,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             60 => 
             array (
@@ -6748,8 +6748,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             61 => 
             array (
@@ -6760,8 +6760,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             62 => 
             array (
@@ -6772,8 +6772,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             63 => 
             array (
@@ -6784,8 +6784,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             64 => 
             array (
@@ -6796,8 +6796,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             65 => 
             array (
@@ -6808,8 +6808,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             66 => 
             array (
@@ -6820,8 +6820,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             67 => 
             array (
@@ -6832,8 +6832,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             68 => 
             array (
@@ -6844,8 +6844,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             69 => 
             array (
@@ -6856,8 +6856,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             70 => 
             array (
@@ -6868,8 +6868,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             71 => 
             array (
@@ -6880,8 +6880,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             72 => 
             array (
@@ -6892,8 +6892,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             73 => 
             array (
@@ -6904,8 +6904,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             74 => 
             array (
@@ -6916,8 +6916,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             75 => 
             array (
@@ -6928,8 +6928,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             76 => 
             array (
@@ -6940,8 +6940,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             77 => 
             array (
@@ -6952,8 +6952,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             78 => 
             array (
@@ -6964,8 +6964,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             79 => 
             array (
@@ -6976,8 +6976,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             80 => 
             array (
@@ -6988,8 +6988,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             81 => 
             array (
@@ -7000,8 +7000,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             82 => 
             array (
@@ -7012,8 +7012,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             83 => 
             array (
@@ -7024,8 +7024,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             84 => 
             array (
@@ -7036,8 +7036,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             85 => 
             array (
@@ -7048,8 +7048,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             86 => 
             array (
@@ -7060,8 +7060,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             87 => 
             array (
@@ -7072,8 +7072,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             88 => 
             array (
@@ -7084,8 +7084,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             89 => 
             array (
@@ -7096,8 +7096,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             90 => 
             array (
@@ -7108,8 +7108,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             91 => 
             array (
@@ -7120,8 +7120,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             92 => 
             array (
@@ -7132,8 +7132,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             93 => 
             array (
@@ -7144,8 +7144,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             94 => 
             array (
@@ -7156,8 +7156,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             95 => 
             array (
@@ -7168,8 +7168,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             96 => 
             array (
@@ -7180,8 +7180,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             97 => 
             array (
@@ -7192,8 +7192,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             98 => 
             array (
@@ -7204,8 +7204,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             99 => 
             array (
@@ -7216,8 +7216,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             100 => 
             array (
@@ -7228,8 +7228,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             101 => 
             array (
@@ -7240,8 +7240,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             102 => 
             array (
@@ -7252,8 +7252,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             103 => 
             array (
@@ -7264,8 +7264,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             104 => 
             array (
@@ -7276,8 +7276,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             105 => 
             array (
@@ -7288,8 +7288,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             106 => 
             array (
@@ -7300,8 +7300,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             107 => 
             array (
@@ -7312,8 +7312,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             108 => 
             array (
@@ -7324,8 +7324,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             109 => 
             array (
@@ -7336,8 +7336,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             110 => 
             array (
@@ -7348,8 +7348,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             111 => 
             array (
@@ -7360,8 +7360,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             112 => 
             array (
@@ -7372,8 +7372,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             113 => 
             array (
@@ -7384,8 +7384,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             114 => 
             array (
@@ -7396,8 +7396,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             115 => 
             array (
@@ -7408,8 +7408,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             116 => 
             array (
@@ -7420,8 +7420,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             117 => 
             array (
@@ -7432,8 +7432,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             118 => 
             array (
@@ -7444,8 +7444,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             119 => 
             array (
@@ -7456,8 +7456,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             120 => 
             array (
@@ -7468,8 +7468,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             121 => 
             array (
@@ -7480,8 +7480,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             122 => 
             array (
@@ -7492,8 +7492,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             123 => 
             array (
@@ -7504,8 +7504,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             124 => 
             array (
@@ -7516,8 +7516,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             125 => 
             array (
@@ -7528,8 +7528,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             126 => 
             array (
@@ -7540,8 +7540,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             127 => 
             array (
@@ -7552,8 +7552,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             128 => 
             array (
@@ -7564,8 +7564,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             129 => 
             array (
@@ -7576,8 +7576,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             130 => 
             array (
@@ -7588,8 +7588,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             131 => 
             array (
@@ -7600,8 +7600,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             132 => 
             array (
@@ -7612,8 +7612,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             133 => 
             array (
@@ -7624,8 +7624,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             134 => 
             array (
@@ -7636,8 +7636,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             135 => 
             array (
@@ -7648,8 +7648,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             136 => 
             array (
@@ -7660,8 +7660,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             137 => 
             array (
@@ -7672,8 +7672,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             138 => 
             array (
@@ -7684,8 +7684,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             139 => 
             array (
@@ -7696,8 +7696,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             140 => 
             array (
@@ -7708,8 +7708,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             141 => 
             array (
@@ -7720,8 +7720,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             142 => 
             array (
@@ -7732,8 +7732,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             143 => 
             array (
@@ -7744,8 +7744,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             144 => 
             array (
@@ -7756,8 +7756,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             145 => 
             array (
@@ -7768,8 +7768,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             146 => 
             array (
@@ -7780,8 +7780,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             147 => 
             array (
@@ -7792,8 +7792,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             148 => 
             array (
@@ -7804,8 +7804,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             149 => 
             array (
@@ -7816,8 +7816,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             150 => 
             array (
@@ -7828,8 +7828,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             151 => 
             array (
@@ -7840,8 +7840,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             152 => 
             array (
@@ -7852,8 +7852,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             153 => 
             array (
@@ -7864,8 +7864,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             154 => 
             array (
@@ -7876,8 +7876,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             155 => 
             array (
@@ -7888,8 +7888,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             156 => 
             array (
@@ -7900,8 +7900,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             157 => 
             array (
@@ -7912,8 +7912,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             158 => 
             array (
@@ -7924,8 +7924,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             159 => 
             array (
@@ -7936,8 +7936,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             160 => 
             array (
@@ -7948,8 +7948,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             161 => 
             array (
@@ -7960,8 +7960,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             162 => 
             array (
@@ -7972,8 +7972,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             163 => 
             array (
@@ -7984,8 +7984,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             164 => 
             array (
@@ -7996,8 +7996,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             165 => 
             array (
@@ -8008,8 +8008,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             166 => 
             array (
@@ -8020,8 +8020,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             167 => 
             array (
@@ -8032,8 +8032,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             168 => 
             array (
@@ -8044,8 +8044,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             169 => 
             array (
@@ -8056,8 +8056,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             170 => 
             array (
@@ -8068,8 +8068,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             171 => 
             array (
@@ -8080,8 +8080,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             172 => 
             array (
@@ -8092,8 +8092,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             173 => 
             array (
@@ -8104,8 +8104,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             174 => 
             array (
@@ -8116,8 +8116,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             175 => 
             array (
@@ -8128,8 +8128,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             176 => 
             array (
@@ -8140,8 +8140,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             177 => 
             array (
@@ -8152,8 +8152,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             178 => 
             array (
@@ -8164,8 +8164,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             179 => 
             array (
@@ -8176,8 +8176,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             180 => 
             array (
@@ -8188,8 +8188,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             181 => 
             array (
@@ -8200,8 +8200,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             182 => 
             array (
@@ -8212,8 +8212,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             183 => 
             array (
@@ -8224,8 +8224,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             184 => 
             array (
@@ -8236,8 +8236,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             185 => 
             array (
@@ -8248,8 +8248,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             186 => 
             array (
@@ -8260,8 +8260,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             187 => 
             array (
@@ -8272,8 +8272,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             188 => 
             array (
@@ -8284,8 +8284,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             189 => 
             array (
@@ -8296,8 +8296,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             190 => 
             array (
@@ -8308,8 +8308,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             191 => 
             array (
@@ -8320,8 +8320,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             192 => 
             array (
@@ -8332,8 +8332,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             193 => 
             array (
@@ -8344,8 +8344,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             194 => 
             array (
@@ -8356,8 +8356,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             195 => 
             array (
@@ -8368,8 +8368,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             196 => 
             array (
@@ -8380,8 +8380,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             197 => 
             array (
@@ -8392,8 +8392,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             198 => 
             array (
@@ -8404,8 +8404,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             199 => 
             array (
@@ -8416,8 +8416,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             200 => 
             array (
@@ -8428,8 +8428,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             201 => 
             array (
@@ -8440,8 +8440,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             202 => 
             array (
@@ -8452,8 +8452,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             203 => 
             array (
@@ -8464,8 +8464,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             204 => 
             array (
@@ -8476,8 +8476,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             205 => 
             array (
@@ -8488,8 +8488,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             206 => 
             array (
@@ -8500,8 +8500,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             207 => 
             array (
@@ -8512,8 +8512,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             208 => 
             array (
@@ -8524,8 +8524,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             209 => 
             array (
@@ -8536,8 +8536,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             210 => 
             array (
@@ -8548,8 +8548,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             211 => 
             array (
@@ -8560,8 +8560,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             212 => 
             array (
@@ -8572,8 +8572,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             213 => 
             array (
@@ -8584,8 +8584,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             214 => 
             array (
@@ -8596,8 +8596,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             215 => 
             array (
@@ -8608,8 +8608,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             216 => 
             array (
@@ -8620,8 +8620,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             217 => 
             array (
@@ -8632,8 +8632,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             218 => 
             array (
@@ -8644,8 +8644,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             219 => 
             array (
@@ -8656,8 +8656,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             220 => 
             array (
@@ -8668,8 +8668,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             221 => 
             array (
@@ -8680,8 +8680,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             222 => 
             array (
@@ -8692,8 +8692,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             223 => 
             array (
@@ -8704,8 +8704,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             224 => 
             array (
@@ -8716,8 +8716,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             225 => 
             array (
@@ -8728,8 +8728,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             226 => 
             array (
@@ -8740,8 +8740,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             227 => 
             array (
@@ -8752,8 +8752,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             228 => 
             array (
@@ -8764,8 +8764,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             229 => 
             array (
@@ -8776,8 +8776,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             230 => 
             array (
@@ -8788,8 +8788,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             231 => 
             array (
@@ -8800,8 +8800,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             232 => 
             array (
@@ -8812,8 +8812,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             233 => 
             array (
@@ -8824,8 +8824,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             234 => 
             array (
@@ -8836,8 +8836,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             235 => 
             array (
@@ -8848,8 +8848,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             236 => 
             array (
@@ -8860,8 +8860,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             237 => 
             array (
@@ -8872,8 +8872,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             238 => 
             array (
@@ -8884,8 +8884,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             239 => 
             array (
@@ -8896,8 +8896,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             240 => 
             array (
@@ -8908,8 +8908,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             241 => 
             array (
@@ -8920,8 +8920,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             242 => 
             array (
@@ -8932,8 +8932,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             243 => 
             array (
@@ -8944,8 +8944,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             244 => 
             array (
@@ -8956,8 +8956,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             245 => 
             array (
@@ -8968,8 +8968,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             246 => 
             array (
@@ -8980,8 +8980,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             247 => 
             array (
@@ -8992,8 +8992,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             248 => 
             array (
@@ -9004,8 +9004,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             249 => 
             array (
@@ -9016,8 +9016,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             250 => 
             array (
@@ -9028,8 +9028,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             251 => 
             array (
@@ -9040,8 +9040,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             252 => 
             array (
@@ -9052,8 +9052,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             253 => 
             array (
@@ -9064,8 +9064,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             254 => 
             array (
@@ -9076,8 +9076,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             255 => 
             array (
@@ -9088,8 +9088,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             256 => 
             array (
@@ -9100,8 +9100,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             257 => 
             array (
@@ -9112,8 +9112,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             258 => 
             array (
@@ -9124,8 +9124,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             259 => 
             array (
@@ -9136,8 +9136,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             260 => 
             array (
@@ -9148,8 +9148,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             261 => 
             array (
@@ -9160,8 +9160,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             262 => 
             array (
@@ -9172,8 +9172,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             263 => 
             array (
@@ -9184,8 +9184,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             264 => 
             array (
@@ -9196,8 +9196,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             265 => 
             array (
@@ -9208,8 +9208,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             266 => 
             array (
@@ -9220,8 +9220,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             267 => 
             array (
@@ -9232,8 +9232,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             268 => 
             array (
@@ -9244,8 +9244,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             269 => 
             array (
@@ -9256,8 +9256,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             270 => 
             array (
@@ -9268,8 +9268,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             271 => 
             array (
@@ -9280,8 +9280,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             272 => 
             array (
@@ -9292,8 +9292,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             273 => 
             array (
@@ -9304,8 +9304,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             274 => 
             array (
@@ -9316,8 +9316,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             275 => 
             array (
@@ -9328,8 +9328,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             276 => 
             array (
@@ -9340,8 +9340,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             277 => 
             array (
@@ -9352,8 +9352,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             278 => 
             array (
@@ -9364,8 +9364,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             279 => 
             array (
@@ -9376,8 +9376,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             280 => 
             array (
@@ -9388,8 +9388,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             281 => 
             array (
@@ -9400,8 +9400,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             282 => 
             array (
@@ -9412,8 +9412,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             283 => 
             array (
@@ -9424,8 +9424,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             284 => 
             array (
@@ -9436,8 +9436,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             285 => 
             array (
@@ -9448,8 +9448,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             286 => 
             array (
@@ -9460,8 +9460,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             287 => 
             array (
@@ -9472,8 +9472,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             288 => 
             array (
@@ -9484,8 +9484,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             289 => 
             array (
@@ -9496,8 +9496,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             290 => 
             array (
@@ -9508,8 +9508,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             291 => 
             array (
@@ -9520,8 +9520,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             292 => 
             array (
@@ -9532,8 +9532,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             293 => 
             array (
@@ -9544,8 +9544,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             294 => 
             array (
@@ -9556,8 +9556,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             295 => 
             array (
@@ -9568,8 +9568,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             296 => 
             array (
@@ -9580,8 +9580,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             297 => 
             array (
@@ -9592,8 +9592,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             298 => 
             array (
@@ -9604,8 +9604,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             299 => 
             array (
@@ -9616,8 +9616,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             300 => 
             array (
@@ -9628,8 +9628,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             301 => 
             array (
@@ -9640,8 +9640,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             302 => 
             array (
@@ -9652,8 +9652,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             303 => 
             array (
@@ -9664,8 +9664,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             304 => 
             array (
@@ -9676,8 +9676,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             305 => 
             array (
@@ -9688,8 +9688,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             306 => 
             array (
@@ -9700,8 +9700,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             307 => 
             array (
@@ -9712,8 +9712,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             308 => 
             array (
@@ -9724,8 +9724,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             309 => 
             array (
@@ -9736,8 +9736,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             310 => 
             array (
@@ -9748,8 +9748,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             311 => 
             array (
@@ -9760,8 +9760,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             312 => 
             array (
@@ -9772,8 +9772,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             313 => 
             array (
@@ -9784,8 +9784,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             314 => 
             array (
@@ -9796,8 +9796,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             315 => 
             array (
@@ -9808,8 +9808,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             316 => 
             array (
@@ -9820,8 +9820,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             317 => 
             array (
@@ -9832,8 +9832,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             318 => 
             array (
@@ -9844,8 +9844,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             319 => 
             array (
@@ -9856,8 +9856,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             320 => 
             array (
@@ -9868,8 +9868,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             321 => 
             array (
@@ -9880,8 +9880,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             322 => 
             array (
@@ -9892,8 +9892,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             323 => 
             array (
@@ -9904,8 +9904,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             324 => 
             array (
@@ -9916,8 +9916,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             325 => 
             array (
@@ -9928,8 +9928,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             326 => 
             array (
@@ -9940,8 +9940,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             327 => 
             array (
@@ -9952,8 +9952,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             328 => 
             array (
@@ -9964,8 +9964,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             329 => 
             array (
@@ -9976,8 +9976,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             330 => 
             array (
@@ -9988,8 +9988,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             331 => 
             array (
@@ -10000,8 +10000,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             332 => 
             array (
@@ -10012,8 +10012,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             333 => 
             array (
@@ -10024,8 +10024,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             334 => 
             array (
@@ -10036,8 +10036,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             335 => 
             array (
@@ -10048,8 +10048,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             336 => 
             array (
@@ -10060,8 +10060,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             337 => 
             array (
@@ -10072,8 +10072,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             338 => 
             array (
@@ -10084,8 +10084,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             339 => 
             array (
@@ -10096,8 +10096,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             340 => 
             array (
@@ -10108,8 +10108,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             341 => 
             array (
@@ -10120,8 +10120,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             342 => 
             array (
@@ -10132,8 +10132,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             343 => 
             array (
@@ -10144,8 +10144,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             344 => 
             array (
@@ -10156,8 +10156,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             345 => 
             array (
@@ -10168,8 +10168,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             346 => 
             array (
@@ -10180,8 +10180,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             347 => 
             array (
@@ -10192,8 +10192,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             348 => 
             array (
@@ -10204,8 +10204,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             349 => 
             array (
@@ -10216,8 +10216,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             350 => 
             array (
@@ -10228,8 +10228,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             351 => 
             array (
@@ -10240,8 +10240,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             352 => 
             array (
@@ -10252,8 +10252,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             353 => 
             array (
@@ -10264,8 +10264,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             354 => 
             array (
@@ -10276,8 +10276,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             355 => 
             array (
@@ -10288,8 +10288,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             356 => 
             array (
@@ -10300,8 +10300,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             357 => 
             array (
@@ -10312,8 +10312,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             358 => 
             array (
@@ -10324,8 +10324,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             359 => 
             array (
@@ -10336,8 +10336,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             360 => 
             array (
@@ -10348,8 +10348,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             361 => 
             array (
@@ -10360,8 +10360,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             362 => 
             array (
@@ -10372,8 +10372,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             363 => 
             array (
@@ -10384,8 +10384,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             364 => 
             array (
@@ -10396,8 +10396,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             365 => 
             array (
@@ -10408,8 +10408,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             366 => 
             array (
@@ -10420,8 +10420,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             367 => 
             array (
@@ -10432,8 +10432,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             368 => 
             array (
@@ -10444,8 +10444,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             369 => 
             array (
@@ -10456,8 +10456,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             370 => 
             array (
@@ -10468,8 +10468,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             371 => 
             array (
@@ -10480,8 +10480,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             372 => 
             array (
@@ -10492,8 +10492,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             373 => 
             array (
@@ -10504,8 +10504,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             374 => 
             array (
@@ -10516,8 +10516,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             375 => 
             array (
@@ -10528,8 +10528,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             376 => 
             array (
@@ -10540,8 +10540,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             377 => 
             array (
@@ -10552,8 +10552,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             378 => 
             array (
@@ -10564,8 +10564,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             379 => 
             array (
@@ -10576,8 +10576,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 7,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             380 => 
             array (
@@ -10588,8 +10588,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 7,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             381 => 
             array (
@@ -10600,8 +10600,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 7,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             382 => 
             array (
@@ -10612,8 +10612,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 7,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             383 => 
             array (
@@ -10624,8 +10624,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 7,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             384 => 
             array (
@@ -10636,8 +10636,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 7,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             385 => 
             array (
@@ -10648,8 +10648,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 7,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             386 => 
             array (
@@ -10660,8 +10660,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             387 => 
             array (
@@ -10672,8 +10672,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             388 => 
             array (
@@ -10684,8 +10684,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             389 => 
             array (
@@ -10696,8 +10696,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             390 => 
             array (
@@ -10708,8 +10708,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             391 => 
             array (
@@ -10720,8 +10720,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 13,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             392 => 
             array (
@@ -10732,8 +10732,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 14,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             393 => 
             array (
@@ -10744,8 +10744,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 8,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             394 => 
             array (
@@ -10756,8 +10756,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             395 => 
             array (
@@ -10768,8 +10768,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             396 => 
             array (
@@ -10780,8 +10780,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             397 => 
             array (
@@ -10792,8 +10792,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             398 => 
             array (
@@ -10804,8 +10804,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             399 => 
             array (
@@ -10816,8 +10816,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             400 => 
             array (
@@ -10828,8 +10828,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             401 => 
             array (
@@ -10840,8 +10840,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             402 => 
             array (
@@ -10852,8 +10852,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             403 => 
             array (
@@ -10864,8 +10864,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             404 => 
             array (
@@ -10876,8 +10876,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             405 => 
             array (
@@ -10888,8 +10888,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             406 => 
             array (
@@ -10900,8 +10900,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             407 => 
             array (
@@ -10912,8 +10912,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             408 => 
             array (
@@ -10924,8 +10924,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             409 => 
             array (
@@ -10936,8 +10936,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             410 => 
             array (
@@ -10948,8 +10948,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             411 => 
             array (
@@ -10960,8 +10960,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             412 => 
             array (
@@ -10972,8 +10972,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             413 => 
             array (
@@ -10984,8 +10984,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             414 => 
             array (
@@ -10996,8 +10996,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             415 => 
             array (
@@ -11008,8 +11008,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             416 => 
             array (
@@ -11020,8 +11020,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             417 => 
             array (
@@ -11032,8 +11032,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             418 => 
             array (
@@ -11044,8 +11044,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             419 => 
             array (
@@ -11056,8 +11056,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             420 => 
             array (
@@ -11068,8 +11068,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             421 => 
             array (
@@ -11080,8 +11080,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             422 => 
             array (
@@ -11092,8 +11092,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             423 => 
             array (
@@ -11104,8 +11104,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             424 => 
             array (
@@ -11116,8 +11116,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             425 => 
             array (
@@ -11128,8 +11128,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             426 => 
             array (
@@ -11140,8 +11140,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             427 => 
             array (
@@ -11152,8 +11152,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             428 => 
             array (
@@ -11164,8 +11164,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             429 => 
             array (
@@ -11176,8 +11176,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             430 => 
             array (
@@ -11188,8 +11188,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             431 => 
             array (
@@ -11200,8 +11200,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             432 => 
             array (
@@ -11212,8 +11212,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             433 => 
             array (
@@ -11224,8 +11224,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             434 => 
             array (
@@ -11236,8 +11236,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             435 => 
             array (
@@ -11248,8 +11248,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             436 => 
             array (
@@ -11260,8 +11260,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             437 => 
             array (
@@ -11272,8 +11272,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             438 => 
             array (
@@ -11284,8 +11284,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             439 => 
             array (
@@ -11296,8 +11296,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             440 => 
             array (
@@ -11308,8 +11308,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             441 => 
             array (
@@ -11320,8 +11320,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             442 => 
             array (
@@ -11332,8 +11332,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             443 => 
             array (
@@ -11344,8 +11344,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             444 => 
             array (
@@ -11356,8 +11356,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             445 => 
             array (
@@ -11368,8 +11368,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             446 => 
             array (
@@ -11380,8 +11380,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             447 => 
             array (
@@ -11392,8 +11392,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             448 => 
             array (
@@ -11404,8 +11404,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             449 => 
             array (
@@ -11416,8 +11416,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             450 => 
             array (
@@ -11428,8 +11428,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             451 => 
             array (
@@ -11440,8 +11440,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             452 => 
             array (
@@ -11452,8 +11452,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             453 => 
             array (
@@ -11464,8 +11464,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             454 => 
             array (
@@ -11476,8 +11476,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             455 => 
             array (
@@ -11488,8 +11488,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             456 => 
             array (
@@ -11500,8 +11500,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             457 => 
             array (
@@ -11512,8 +11512,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             458 => 
             array (
@@ -11524,8 +11524,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             459 => 
             array (
@@ -11536,8 +11536,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             460 => 
             array (
@@ -11548,8 +11548,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             461 => 
             array (
@@ -11560,8 +11560,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             462 => 
             array (
@@ -11572,8 +11572,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             463 => 
             array (
@@ -11584,8 +11584,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             464 => 
             array (
@@ -11596,8 +11596,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             465 => 
             array (
@@ -11608,8 +11608,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             466 => 
             array (
@@ -11620,8 +11620,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             467 => 
             array (
@@ -11632,8 +11632,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             468 => 
             array (
@@ -11644,8 +11644,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             469 => 
             array (
@@ -11656,8 +11656,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             470 => 
             array (
@@ -11668,8 +11668,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             471 => 
             array (
@@ -11680,8 +11680,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             472 => 
             array (
@@ -11692,8 +11692,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             473 => 
             array (
@@ -11704,8 +11704,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             474 => 
             array (
@@ -11716,8 +11716,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             475 => 
             array (
@@ -11728,8 +11728,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             476 => 
             array (
@@ -11740,8 +11740,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             477 => 
             array (
@@ -11752,8 +11752,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             478 => 
             array (
@@ -11764,8 +11764,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             479 => 
             array (
@@ -11776,8 +11776,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             480 => 
             array (
@@ -11788,8 +11788,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             481 => 
             array (
@@ -11800,8 +11800,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             482 => 
             array (
@@ -11812,8 +11812,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             483 => 
             array (
@@ -11824,8 +11824,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             484 => 
             array (
@@ -11836,8 +11836,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             485 => 
             array (
@@ -11848,8 +11848,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             486 => 
             array (
@@ -11860,8 +11860,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             487 => 
             array (
@@ -11872,8 +11872,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             488 => 
             array (
@@ -11884,8 +11884,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             489 => 
             array (
@@ -11896,8 +11896,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             490 => 
             array (
@@ -11908,8 +11908,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             491 => 
             array (
@@ -11920,8 +11920,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             492 => 
             array (
@@ -11932,8 +11932,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             493 => 
             array (
@@ -11944,8 +11944,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             494 => 
             array (
@@ -11956,8 +11956,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             495 => 
             array (
@@ -11968,8 +11968,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             496 => 
             array (
@@ -11980,8 +11980,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             497 => 
             array (
@@ -11992,8 +11992,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             498 => 
             array (
@@ -12004,8 +12004,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             499 => 
             array (
@@ -12016,8 +12016,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
         ));
         \DB::table('tolerances')->insert(array (
@@ -12030,8 +12030,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             1 => 
             array (
@@ -12042,8 +12042,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             2 => 
             array (
@@ -12054,8 +12054,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             3 => 
             array (
@@ -12066,8 +12066,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             4 => 
             array (
@@ -12078,8 +12078,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             5 => 
             array (
@@ -12090,8 +12090,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             6 => 
             array (
@@ -12102,8 +12102,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             7 => 
             array (
@@ -12114,8 +12114,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             8 => 
             array (
@@ -12126,8 +12126,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             9 => 
             array (
@@ -12138,8 +12138,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             10 => 
             array (
@@ -12150,8 +12150,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             11 => 
             array (
@@ -12162,8 +12162,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             12 => 
             array (
@@ -12174,8 +12174,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             13 => 
             array (
@@ -12186,8 +12186,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             14 => 
             array (
@@ -12198,8 +12198,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             15 => 
             array (
@@ -12210,8 +12210,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             16 => 
             array (
@@ -12222,8 +12222,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             17 => 
             array (
@@ -12234,8 +12234,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             18 => 
             array (
@@ -12246,8 +12246,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             19 => 
             array (
@@ -12258,8 +12258,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             20 => 
             array (
@@ -12270,8 +12270,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             21 => 
             array (
@@ -12282,8 +12282,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             22 => 
             array (
@@ -12294,8 +12294,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             23 => 
             array (
@@ -12306,8 +12306,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             24 => 
             array (
@@ -12318,8 +12318,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             25 => 
             array (
@@ -12330,8 +12330,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             26 => 
             array (
@@ -12342,8 +12342,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             27 => 
             array (
@@ -12354,8 +12354,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             28 => 
             array (
@@ -12366,8 +12366,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             29 => 
             array (
@@ -12378,8 +12378,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             30 => 
             array (
@@ -12390,8 +12390,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             31 => 
             array (
@@ -12402,8 +12402,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             32 => 
             array (
@@ -12414,8 +12414,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             33 => 
             array (
@@ -12426,8 +12426,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             34 => 
             array (
@@ -12438,8 +12438,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             35 => 
             array (
@@ -12450,8 +12450,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             36 => 
             array (
@@ -12462,8 +12462,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             37 => 
             array (
@@ -12474,8 +12474,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             38 => 
             array (
@@ -12486,8 +12486,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             39 => 
             array (
@@ -12498,8 +12498,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             40 => 
             array (
@@ -12510,8 +12510,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             41 => 
             array (
@@ -12522,8 +12522,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             42 => 
             array (
@@ -12534,8 +12534,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             43 => 
             array (
@@ -12546,8 +12546,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             44 => 
             array (
@@ -12558,8 +12558,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             45 => 
             array (
@@ -12570,8 +12570,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             46 => 
             array (
@@ -12582,8 +12582,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             47 => 
             array (
@@ -12594,8 +12594,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             48 => 
             array (
@@ -12606,8 +12606,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             49 => 
             array (
@@ -12618,8 +12618,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             50 => 
             array (
@@ -12630,8 +12630,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             51 => 
             array (
@@ -12642,8 +12642,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             52 => 
             array (
@@ -12654,8 +12654,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             53 => 
             array (
@@ -12666,8 +12666,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             54 => 
             array (
@@ -12678,8 +12678,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             55 => 
             array (
@@ -12690,8 +12690,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             56 => 
             array (
@@ -12702,8 +12702,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             57 => 
             array (
@@ -12714,8 +12714,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             58 => 
             array (
@@ -12726,8 +12726,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             59 => 
             array (
@@ -12738,8 +12738,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             60 => 
             array (
@@ -12750,8 +12750,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             61 => 
             array (
@@ -12762,8 +12762,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             62 => 
             array (
@@ -12774,8 +12774,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             63 => 
             array (
@@ -12786,8 +12786,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             64 => 
             array (
@@ -12798,8 +12798,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             65 => 
             array (
@@ -12810,8 +12810,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             66 => 
             array (
@@ -12822,8 +12822,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             67 => 
             array (
@@ -12834,8 +12834,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             68 => 
             array (
@@ -12846,8 +12846,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             69 => 
             array (
@@ -12858,8 +12858,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             70 => 
             array (
@@ -12870,8 +12870,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             71 => 
             array (
@@ -12882,8 +12882,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             72 => 
             array (
@@ -12894,8 +12894,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             73 => 
             array (
@@ -12906,8 +12906,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             74 => 
             array (
@@ -12918,8 +12918,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             75 => 
             array (
@@ -12930,8 +12930,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             76 => 
             array (
@@ -12942,8 +12942,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             77 => 
             array (
@@ -12954,8 +12954,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             78 => 
             array (
@@ -12966,8 +12966,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             79 => 
             array (
@@ -12978,8 +12978,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             80 => 
             array (
@@ -12990,8 +12990,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             81 => 
             array (
@@ -13002,8 +13002,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             82 => 
             array (
@@ -13014,8 +13014,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             83 => 
             array (
@@ -13026,8 +13026,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             84 => 
             array (
@@ -13038,8 +13038,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             85 => 
             array (
@@ -13050,8 +13050,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             86 => 
             array (
@@ -13062,8 +13062,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             87 => 
             array (
@@ -13074,8 +13074,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             88 => 
             array (
@@ -13086,8 +13086,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             89 => 
             array (
@@ -13098,8 +13098,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             90 => 
             array (
@@ -13110,8 +13110,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             91 => 
             array (
@@ -13122,8 +13122,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             92 => 
             array (
@@ -13134,8 +13134,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             93 => 
             array (
@@ -13146,8 +13146,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             94 => 
             array (
@@ -13158,8 +13158,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             95 => 
             array (
@@ -13170,8 +13170,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             96 => 
             array (
@@ -13182,8 +13182,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             97 => 
             array (
@@ -13194,8 +13194,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             98 => 
             array (
@@ -13206,8 +13206,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             99 => 
             array (
@@ -13218,8 +13218,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             100 => 
             array (
@@ -13230,8 +13230,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             101 => 
             array (
@@ -13242,8 +13242,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             102 => 
             array (
@@ -13254,8 +13254,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             103 => 
             array (
@@ -13266,8 +13266,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             104 => 
             array (
@@ -13278,8 +13278,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             105 => 
             array (
@@ -13290,8 +13290,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             106 => 
             array (
@@ -13302,8 +13302,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             107 => 
             array (
@@ -13314,8 +13314,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             108 => 
             array (
@@ -13326,8 +13326,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             109 => 
             array (
@@ -13338,8 +13338,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             110 => 
             array (
@@ -13350,8 +13350,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             111 => 
             array (
@@ -13362,8 +13362,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             112 => 
             array (
@@ -13374,8 +13374,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             113 => 
             array (
@@ -13386,8 +13386,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 10,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             114 => 
             array (
@@ -13398,8 +13398,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 11,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             115 => 
             array (
@@ -13410,8 +13410,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 12,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             116 => 
             array (
@@ -13422,8 +13422,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 15,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             117 => 
             array (
@@ -13434,8 +13434,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 10,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             118 => 
             array (
@@ -13446,8 +13446,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             119 => 
             array (
@@ -13458,8 +13458,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             120 => 
             array (
@@ -13470,8 +13470,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             121 => 
             array (
@@ -13482,8 +13482,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             122 => 
             array (
@@ -13494,8 +13494,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             123 => 
             array (
@@ -13506,8 +13506,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             124 => 
             array (
@@ -13518,8 +13518,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             125 => 
             array (
@@ -13530,8 +13530,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             126 => 
             array (
@@ -13542,8 +13542,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             127 => 
             array (
@@ -13554,8 +13554,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             128 => 
             array (
@@ -13566,8 +13566,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             129 => 
             array (
@@ -13578,8 +13578,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             130 => 
             array (
@@ -13590,8 +13590,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             131 => 
             array (
@@ -13602,8 +13602,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             132 => 
             array (
@@ -13614,8 +13614,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             133 => 
             array (
@@ -13626,8 +13626,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             134 => 
             array (
@@ -13638,8 +13638,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             135 => 
             array (
@@ -13650,8 +13650,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             136 => 
             array (
@@ -13662,8 +13662,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             137 => 
             array (
@@ -13674,8 +13674,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             138 => 
             array (
@@ -13686,8 +13686,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             139 => 
             array (
@@ -13698,8 +13698,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             140 => 
             array (
@@ -13710,8 +13710,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             141 => 
             array (
@@ -13722,8 +13722,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             142 => 
             array (
@@ -13734,8 +13734,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             143 => 
             array (
@@ -13746,8 +13746,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             144 => 
             array (
@@ -13758,8 +13758,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             145 => 
             array (
@@ -13770,8 +13770,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             146 => 
             array (
@@ -13782,8 +13782,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             147 => 
             array (
@@ -13794,8 +13794,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             148 => 
             array (
@@ -13806,8 +13806,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             149 => 
             array (
@@ -13818,8 +13818,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             150 => 
             array (
@@ -13830,8 +13830,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             151 => 
             array (
@@ -13842,8 +13842,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             152 => 
             array (
@@ -13854,8 +13854,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             153 => 
             array (
@@ -13866,8 +13866,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             154 => 
             array (
@@ -13878,8 +13878,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             155 => 
             array (
@@ -13890,8 +13890,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             156 => 
             array (
@@ -13902,8 +13902,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             157 => 
             array (
@@ -13914,8 +13914,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             158 => 
             array (
@@ -13926,8 +13926,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             159 => 
             array (
@@ -13938,8 +13938,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             160 => 
             array (
@@ -13950,8 +13950,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             161 => 
             array (
@@ -13962,8 +13962,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             162 => 
             array (
@@ -13974,8 +13974,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             163 => 
             array (
@@ -13986,8 +13986,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             164 => 
             array (
@@ -13998,8 +13998,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             165 => 
             array (
@@ -14010,8 +14010,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             166 => 
             array (
@@ -14022,8 +14022,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             167 => 
             array (
@@ -14034,8 +14034,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             168 => 
             array (
@@ -14046,8 +14046,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             169 => 
             array (
@@ -14058,8 +14058,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             170 => 
             array (
@@ -14070,8 +14070,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             171 => 
             array (
@@ -14082,8 +14082,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             172 => 
             array (
@@ -14094,8 +14094,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             173 => 
             array (
@@ -14106,8 +14106,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             174 => 
             array (
@@ -14118,8 +14118,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             175 => 
             array (
@@ -14130,8 +14130,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             176 => 
             array (
@@ -14142,8 +14142,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             177 => 
             array (
@@ -14154,8 +14154,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             178 => 
             array (
@@ -14166,8 +14166,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             179 => 
             array (
@@ -14178,8 +14178,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             180 => 
             array (
@@ -14190,8 +14190,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             181 => 
             array (
@@ -14202,8 +14202,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             182 => 
             array (
@@ -14214,8 +14214,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             183 => 
             array (
@@ -14226,8 +14226,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             184 => 
             array (
@@ -14238,8 +14238,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             185 => 
             array (
@@ -14250,8 +14250,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             186 => 
             array (
@@ -14262,8 +14262,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             187 => 
             array (
@@ -14274,8 +14274,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             188 => 
             array (
@@ -14286,8 +14286,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             189 => 
             array (
@@ -14298,8 +14298,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             190 => 
             array (
@@ -14310,8 +14310,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             191 => 
             array (
@@ -14322,8 +14322,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             192 => 
             array (
@@ -14334,8 +14334,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             193 => 
             array (
@@ -14346,8 +14346,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             194 => 
             array (
@@ -14358,8 +14358,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             195 => 
             array (
@@ -14370,8 +14370,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             196 => 
             array (
@@ -14382,8 +14382,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             197 => 
             array (
@@ -14394,8 +14394,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             198 => 
             array (
@@ -14406,8 +14406,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             199 => 
             array (
@@ -14418,8 +14418,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             200 => 
             array (
@@ -14430,8 +14430,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             201 => 
             array (
@@ -14442,8 +14442,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             202 => 
             array (
@@ -14454,8 +14454,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             203 => 
             array (
@@ -14466,8 +14466,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             204 => 
             array (
@@ -14478,8 +14478,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             205 => 
             array (
@@ -14490,8 +14490,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             206 => 
             array (
@@ -14502,8 +14502,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             207 => 
             array (
@@ -14514,8 +14514,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             208 => 
             array (
@@ -14526,8 +14526,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             209 => 
             array (
@@ -14538,8 +14538,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             210 => 
             array (
@@ -14550,8 +14550,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             211 => 
             array (
@@ -14562,8 +14562,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             212 => 
             array (
@@ -14574,8 +14574,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             213 => 
             array (
@@ -14586,8 +14586,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             214 => 
             array (
@@ -14598,8 +14598,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             215 => 
             array (
@@ -14610,8 +14610,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             216 => 
             array (
@@ -14622,8 +14622,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             217 => 
             array (
@@ -14634,8 +14634,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             218 => 
             array (
@@ -14646,8 +14646,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             219 => 
             array (
@@ -14658,8 +14658,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             220 => 
             array (
@@ -14670,8 +14670,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             221 => 
             array (
@@ -14682,8 +14682,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             222 => 
             array (
@@ -14694,8 +14694,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             223 => 
             array (
@@ -14706,8 +14706,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             224 => 
             array (
@@ -14718,8 +14718,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             225 => 
             array (
@@ -14730,8 +14730,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             226 => 
             array (
@@ -14742,8 +14742,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             227 => 
             array (
@@ -14754,8 +14754,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             228 => 
             array (
@@ -14766,8 +14766,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             229 => 
             array (
@@ -14778,8 +14778,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             230 => 
             array (
@@ -14790,8 +14790,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             231 => 
             array (
@@ -14802,8 +14802,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             232 => 
             array (
@@ -14814,8 +14814,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             233 => 
             array (
@@ -14826,8 +14826,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             234 => 
             array (
@@ -14838,8 +14838,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             235 => 
             array (
@@ -14850,8 +14850,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             236 => 
             array (
@@ -14862,8 +14862,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             237 => 
             array (
@@ -14874,8 +14874,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             238 => 
             array (
@@ -14886,8 +14886,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             239 => 
             array (
@@ -14898,8 +14898,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             240 => 
             array (
@@ -14910,8 +14910,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             241 => 
             array (
@@ -14922,8 +14922,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             242 => 
             array (
@@ -14934,8 +14934,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             243 => 
             array (
@@ -14946,8 +14946,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             244 => 
             array (
@@ -14958,8 +14958,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             245 => 
             array (
@@ -14970,8 +14970,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             246 => 
             array (
@@ -14982,8 +14982,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             247 => 
             array (
@@ -14994,8 +14994,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             248 => 
             array (
@@ -15006,8 +15006,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             249 => 
             array (
@@ -15018,8 +15018,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             250 => 
             array (
@@ -15030,8 +15030,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             251 => 
             array (
@@ -15042,8 +15042,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             252 => 
             array (
@@ -15054,8 +15054,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             253 => 
             array (
@@ -15066,8 +15066,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             254 => 
             array (
@@ -15078,8 +15078,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             255 => 
             array (
@@ -15090,8 +15090,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             256 => 
             array (
@@ -15102,8 +15102,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             257 => 
             array (
@@ -15114,8 +15114,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             258 => 
             array (
@@ -15126,8 +15126,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             259 => 
             array (
@@ -15138,8 +15138,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             260 => 
             array (
@@ -15150,8 +15150,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             261 => 
             array (
@@ -15162,8 +15162,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             262 => 
             array (
@@ -15174,8 +15174,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             263 => 
             array (
@@ -15186,8 +15186,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             264 => 
             array (
@@ -15198,8 +15198,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             265 => 
             array (
@@ -15210,8 +15210,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             266 => 
             array (
@@ -15222,8 +15222,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             267 => 
             array (
@@ -15234,8 +15234,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             268 => 
             array (
@@ -15246,8 +15246,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             269 => 
             array (
@@ -15258,8 +15258,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             270 => 
             array (
@@ -15270,8 +15270,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             271 => 
             array (
@@ -15282,8 +15282,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             272 => 
             array (
@@ -15294,8 +15294,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             273 => 
             array (
@@ -15306,8 +15306,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             274 => 
             array (
@@ -15318,8 +15318,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             275 => 
             array (
@@ -15330,8 +15330,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             276 => 
             array (
@@ -15342,8 +15342,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             277 => 
             array (
@@ -15354,8 +15354,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             278 => 
             array (
@@ -15366,8 +15366,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             279 => 
             array (
@@ -15378,8 +15378,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             280 => 
             array (
@@ -15390,8 +15390,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             281 => 
             array (
@@ -15402,8 +15402,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             282 => 
             array (
@@ -15414,8 +15414,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             283 => 
             array (
@@ -15426,8 +15426,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             284 => 
             array (
@@ -15438,8 +15438,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             285 => 
             array (
@@ -15450,8 +15450,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             286 => 
             array (
@@ -15462,8 +15462,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             287 => 
             array (
@@ -15474,8 +15474,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             288 => 
             array (
@@ -15486,8 +15486,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             289 => 
             array (
@@ -15498,8 +15498,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             290 => 
             array (
@@ -15510,8 +15510,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             291 => 
             array (
@@ -15522,8 +15522,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             292 => 
             array (
@@ -15534,8 +15534,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             293 => 
             array (
@@ -15546,8 +15546,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             294 => 
             array (
@@ -15558,8 +15558,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             295 => 
             array (
@@ -15570,8 +15570,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             296 => 
             array (
@@ -15582,8 +15582,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             297 => 
             array (
@@ -15594,8 +15594,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             298 => 
             array (
@@ -15606,8 +15606,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             299 => 
             array (
@@ -15618,8 +15618,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             300 => 
             array (
@@ -15630,8 +15630,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             301 => 
             array (
@@ -15642,8 +15642,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             302 => 
             array (
@@ -15654,8 +15654,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             303 => 
             array (
@@ -15666,8 +15666,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             304 => 
             array (
@@ -15678,8 +15678,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             305 => 
             array (
@@ -15690,8 +15690,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             306 => 
             array (
@@ -15702,8 +15702,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             307 => 
             array (
@@ -15714,8 +15714,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             308 => 
             array (
@@ -15726,8 +15726,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             309 => 
             array (
@@ -15738,8 +15738,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             310 => 
             array (
@@ -15750,8 +15750,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             311 => 
             array (
@@ -15762,8 +15762,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             312 => 
             array (
@@ -15774,8 +15774,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             313 => 
             array (
@@ -15786,8 +15786,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             314 => 
             array (
@@ -15798,8 +15798,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             315 => 
             array (
@@ -15810,8 +15810,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             316 => 
             array (
@@ -15822,8 +15822,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             317 => 
             array (
@@ -15834,8 +15834,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             318 => 
             array (
@@ -15846,8 +15846,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             319 => 
             array (
@@ -15858,8 +15858,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             320 => 
             array (
@@ -15870,8 +15870,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             321 => 
             array (
@@ -15882,8 +15882,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             322 => 
             array (
@@ -15894,8 +15894,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             323 => 
             array (
@@ -15906,8 +15906,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             324 => 
             array (
@@ -15918,8 +15918,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             325 => 
             array (
@@ -15930,8 +15930,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             326 => 
             array (
@@ -15942,8 +15942,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             327 => 
             array (
@@ -15954,8 +15954,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             328 => 
             array (
@@ -15966,8 +15966,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             329 => 
             array (
@@ -15978,8 +15978,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             330 => 
             array (
@@ -15990,8 +15990,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             331 => 
             array (
@@ -16002,8 +16002,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             332 => 
             array (
@@ -16014,8 +16014,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             333 => 
             array (
@@ -16026,8 +16026,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             334 => 
             array (
@@ -16038,8 +16038,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             335 => 
             array (
@@ -16050,8 +16050,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             336 => 
             array (
@@ -16062,8 +16062,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             337 => 
             array (
@@ -16074,8 +16074,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             338 => 
             array (
@@ -16086,8 +16086,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             339 => 
             array (
@@ -16098,8 +16098,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             340 => 
             array (
@@ -16110,8 +16110,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             341 => 
             array (
@@ -16122,8 +16122,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             342 => 
             array (
@@ -16134,8 +16134,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             343 => 
             array (
@@ -16146,8 +16146,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             344 => 
             array (
@@ -16158,8 +16158,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             345 => 
             array (
@@ -16170,8 +16170,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             346 => 
             array (
@@ -16182,8 +16182,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             347 => 
             array (
@@ -16194,8 +16194,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             348 => 
             array (
@@ -16206,8 +16206,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             349 => 
             array (
@@ -16218,8 +16218,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             350 => 
             array (
@@ -16230,8 +16230,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             351 => 
             array (
@@ -16242,8 +16242,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             352 => 
             array (
@@ -16254,8 +16254,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             353 => 
             array (
@@ -16266,8 +16266,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             354 => 
             array (
@@ -16278,8 +16278,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             355 => 
             array (
@@ -16290,8 +16290,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             356 => 
             array (
@@ -16302,8 +16302,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             357 => 
             array (
@@ -16314,8 +16314,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             358 => 
             array (
@@ -16326,8 +16326,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             359 => 
             array (
@@ -16338,8 +16338,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             360 => 
             array (
@@ -16350,8 +16350,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             361 => 
             array (
@@ -16362,8 +16362,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             362 => 
             array (
@@ -16374,8 +16374,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             363 => 
             array (
@@ -16386,8 +16386,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             364 => 
             array (
@@ -16398,8 +16398,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             365 => 
             array (
@@ -16410,8 +16410,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             366 => 
             array (
@@ -16422,8 +16422,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             367 => 
             array (
@@ -16434,8 +16434,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             368 => 
             array (
@@ -16446,8 +16446,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             369 => 
             array (
@@ -16458,8 +16458,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             370 => 
             array (
@@ -16470,8 +16470,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             371 => 
             array (
@@ -16482,8 +16482,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             372 => 
             array (
@@ -16494,8 +16494,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             373 => 
             array (
@@ -16506,8 +16506,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             374 => 
             array (
@@ -16518,8 +16518,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             375 => 
             array (
@@ -16530,8 +16530,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             376 => 
             array (
@@ -16542,8 +16542,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             377 => 
             array (
@@ -16554,8 +16554,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             378 => 
             array (
@@ -16566,8 +16566,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             379 => 
             array (
@@ -16578,8 +16578,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             380 => 
             array (
@@ -16590,8 +16590,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             381 => 
             array (
@@ -16602,8 +16602,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             382 => 
             array (
@@ -16614,8 +16614,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             383 => 
             array (
@@ -16626,8 +16626,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             384 => 
             array (
@@ -16638,8 +16638,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             385 => 
             array (
@@ -16650,8 +16650,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             386 => 
             array (
@@ -16662,8 +16662,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             387 => 
             array (
@@ -16674,8 +16674,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             388 => 
             array (
@@ -16686,8 +16686,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             389 => 
             array (
@@ -16698,8 +16698,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             390 => 
             array (
@@ -16710,8 +16710,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             391 => 
             array (
@@ -16722,8 +16722,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             392 => 
             array (
@@ -16734,8 +16734,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             393 => 
             array (
@@ -16746,8 +16746,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             394 => 
             array (
@@ -16758,8 +16758,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             395 => 
             array (
@@ -16770,8 +16770,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             396 => 
             array (
@@ -16782,8 +16782,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             397 => 
             array (
@@ -16794,8 +16794,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             398 => 
             array (
@@ -16806,8 +16806,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             399 => 
             array (
@@ -16818,8 +16818,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             400 => 
             array (
@@ -16830,8 +16830,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             401 => 
             array (
@@ -16842,8 +16842,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             402 => 
             array (
@@ -16854,8 +16854,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             403 => 
             array (
@@ -16866,8 +16866,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             404 => 
             array (
@@ -16878,8 +16878,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             405 => 
             array (
@@ -16890,8 +16890,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             406 => 
             array (
@@ -16902,8 +16902,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             407 => 
             array (
@@ -16914,8 +16914,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             408 => 
             array (
@@ -16926,8 +16926,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             409 => 
             array (
@@ -16938,8 +16938,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             410 => 
             array (
@@ -16950,8 +16950,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             411 => 
             array (
@@ -16962,8 +16962,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             412 => 
             array (
@@ -16974,8 +16974,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             413 => 
             array (
@@ -16986,8 +16986,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             414 => 
             array (
@@ -16998,8 +16998,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             415 => 
             array (
@@ -17010,8 +17010,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             416 => 
             array (
@@ -17022,8 +17022,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             417 => 
             array (
@@ -17034,8 +17034,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             418 => 
             array (
@@ -17046,8 +17046,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             419 => 
             array (
@@ -17058,8 +17058,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             420 => 
             array (
@@ -17070,8 +17070,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             421 => 
             array (
@@ -17082,8 +17082,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             422 => 
             array (
@@ -17094,8 +17094,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             423 => 
             array (
@@ -17106,8 +17106,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             424 => 
             array (
@@ -17118,8 +17118,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             425 => 
             array (
@@ -17130,8 +17130,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             426 => 
             array (
@@ -17142,8 +17142,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             427 => 
             array (
@@ -17154,8 +17154,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             428 => 
             array (
@@ -17166,8 +17166,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             429 => 
             array (
@@ -17178,8 +17178,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             430 => 
             array (
@@ -17190,8 +17190,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             431 => 
             array (
@@ -17202,8 +17202,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             432 => 
             array (
@@ -17214,8 +17214,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             433 => 
             array (
@@ -17226,8 +17226,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             434 => 
             array (
@@ -17238,8 +17238,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             435 => 
             array (
@@ -17250,8 +17250,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             436 => 
             array (
@@ -17262,8 +17262,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             437 => 
             array (
@@ -17274,8 +17274,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             438 => 
             array (
@@ -17286,8 +17286,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             439 => 
             array (
@@ -17298,8 +17298,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             440 => 
             array (
@@ -17310,8 +17310,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             441 => 
             array (
@@ -17322,8 +17322,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             442 => 
             array (
@@ -17334,8 +17334,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             443 => 
             array (
@@ -17346,8 +17346,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             444 => 
             array (
@@ -17358,8 +17358,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             445 => 
             array (
@@ -17370,8 +17370,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             446 => 
             array (
@@ -17382,8 +17382,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             447 => 
             array (
@@ -17394,8 +17394,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             448 => 
             array (
@@ -17406,8 +17406,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             449 => 
             array (
@@ -17418,8 +17418,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             450 => 
             array (
@@ -17430,8 +17430,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             451 => 
             array (
@@ -17442,8 +17442,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             452 => 
             array (
@@ -17454,8 +17454,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             453 => 
             array (
@@ -17466,8 +17466,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             454 => 
             array (
@@ -17478,8 +17478,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             455 => 
             array (
@@ -17490,8 +17490,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             456 => 
             array (
@@ -17502,8 +17502,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             457 => 
             array (
@@ -17514,8 +17514,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             458 => 
             array (
@@ -17526,8 +17526,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             459 => 
             array (
@@ -17538,8 +17538,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             460 => 
             array (
@@ -17550,8 +17550,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 17,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             461 => 
             array (
@@ -17562,8 +17562,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 19,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             462 => 
             array (
@@ -17574,8 +17574,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 11,
                 'field_id' => 21,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             463 => 
             array (
@@ -17586,8 +17586,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 12,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             464 => 
             array (
@@ -17598,8 +17598,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 12,
                 'field_id' => 5,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             465 => 
             array (
@@ -17610,8 +17610,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 12,
                 'field_id' => 6,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             466 => 
             array (
@@ -17622,8 +17622,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 12,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             467 => 
             array (
@@ -17634,8 +17634,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 12,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             468 => 
             array (
@@ -17646,8 +17646,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             469 => 
             array (
@@ -17658,8 +17658,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             470 => 
             array (
@@ -17670,8 +17670,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             471 => 
             array (
@@ -17682,8 +17682,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             472 => 
             array (
@@ -17694,8 +17694,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             473 => 
             array (
@@ -17706,8 +17706,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             474 => 
             array (
@@ -17718,8 +17718,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             475 => 
             array (
@@ -17730,8 +17730,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             476 => 
             array (
@@ -17742,8 +17742,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             477 => 
             array (
@@ -17754,8 +17754,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             478 => 
             array (
@@ -17766,8 +17766,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             479 => 
             array (
@@ -17778,8 +17778,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             480 => 
             array (
@@ -17790,8 +17790,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             481 => 
             array (
@@ -17802,8 +17802,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             482 => 
             array (
@@ -17814,8 +17814,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             483 => 
             array (
@@ -17826,8 +17826,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             484 => 
             array (
@@ -17838,8 +17838,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             485 => 
             array (
@@ -17850,8 +17850,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             486 => 
             array (
@@ -17862,8 +17862,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             487 => 
             array (
@@ -17874,8 +17874,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             488 => 
             array (
@@ -17886,8 +17886,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             489 => 
             array (
@@ -17898,8 +17898,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             490 => 
             array (
@@ -17910,8 +17910,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             491 => 
             array (
@@ -17922,8 +17922,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             492 => 
             array (
@@ -17934,8 +17934,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             493 => 
             array (
@@ -17946,8 +17946,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             494 => 
             array (
@@ -17958,8 +17958,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             495 => 
             array (
@@ -17970,8 +17970,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             496 => 
             array (
@@ -17982,8 +17982,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             497 => 
             array (
@@ -17994,8 +17994,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             498 => 
             array (
@@ -18006,8 +18006,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             499 => 
             array (
@@ -18018,8 +18018,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
         ));
         \DB::table('tolerances')->insert(array (
@@ -18032,8 +18032,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             1 => 
             array (
@@ -18044,8 +18044,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             2 => 
             array (
@@ -18056,8 +18056,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             3 => 
             array (
@@ -18068,8 +18068,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             4 => 
             array (
@@ -18080,8 +18080,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             5 => 
             array (
@@ -18092,8 +18092,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             6 => 
             array (
@@ -18104,8 +18104,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             7 => 
             array (
@@ -18116,8 +18116,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             8 => 
             array (
@@ -18128,8 +18128,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             9 => 
             array (
@@ -18140,8 +18140,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             10 => 
             array (
@@ -18152,8 +18152,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             11 => 
             array (
@@ -18164,8 +18164,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             12 => 
             array (
@@ -18176,8 +18176,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             13 => 
             array (
@@ -18188,8 +18188,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             14 => 
             array (
@@ -18200,8 +18200,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             15 => 
             array (
@@ -18212,8 +18212,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             16 => 
             array (
@@ -18224,8 +18224,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             17 => 
             array (
@@ -18236,8 +18236,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             18 => 
             array (
@@ -18248,8 +18248,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             19 => 
             array (
@@ -18260,8 +18260,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             20 => 
             array (
@@ -18272,8 +18272,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             21 => 
             array (
@@ -18284,8 +18284,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             22 => 
             array (
@@ -18296,8 +18296,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             23 => 
             array (
@@ -18308,8 +18308,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             24 => 
             array (
@@ -18320,8 +18320,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             25 => 
             array (
@@ -18332,8 +18332,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             26 => 
             array (
@@ -18344,8 +18344,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             27 => 
             array (
@@ -18356,8 +18356,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             28 => 
             array (
@@ -18368,8 +18368,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             29 => 
             array (
@@ -18380,8 +18380,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             30 => 
             array (
@@ -18392,8 +18392,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             31 => 
             array (
@@ -18404,8 +18404,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             32 => 
             array (
@@ -18416,8 +18416,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             33 => 
             array (
@@ -18428,8 +18428,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             34 => 
             array (
@@ -18440,8 +18440,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             35 => 
             array (
@@ -18452,8 +18452,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             36 => 
             array (
@@ -18464,8 +18464,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             37 => 
             array (
@@ -18476,8 +18476,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             38 => 
             array (
@@ -18488,8 +18488,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             39 => 
             array (
@@ -18500,8 +18500,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             40 => 
             array (
@@ -18512,8 +18512,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             41 => 
             array (
@@ -18524,8 +18524,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             42 => 
             array (
@@ -18536,8 +18536,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             43 => 
             array (
@@ -18548,8 +18548,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             44 => 
             array (
@@ -18560,8 +18560,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             45 => 
             array (
@@ -18572,8 +18572,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             46 => 
             array (
@@ -18584,8 +18584,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             47 => 
             array (
@@ -18596,8 +18596,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             48 => 
             array (
@@ -18608,8 +18608,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             49 => 
             array (
@@ -18620,8 +18620,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             50 => 
             array (
@@ -18632,8 +18632,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             51 => 
             array (
@@ -18644,8 +18644,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             52 => 
             array (
@@ -18656,8 +18656,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             53 => 
             array (
@@ -18668,8 +18668,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             54 => 
             array (
@@ -18680,8 +18680,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             55 => 
             array (
@@ -18692,8 +18692,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             56 => 
             array (
@@ -18704,8 +18704,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             57 => 
             array (
@@ -18716,8 +18716,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             58 => 
             array (
@@ -18728,8 +18728,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             59 => 
             array (
@@ -18740,8 +18740,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             60 => 
             array (
@@ -18752,8 +18752,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             61 => 
             array (
@@ -18764,8 +18764,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             62 => 
             array (
@@ -18776,8 +18776,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             63 => 
             array (
@@ -18788,8 +18788,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             64 => 
             array (
@@ -18800,8 +18800,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             65 => 
             array (
@@ -18812,8 +18812,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             66 => 
             array (
@@ -18824,8 +18824,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             67 => 
             array (
@@ -18836,8 +18836,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             68 => 
             array (
@@ -18848,8 +18848,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             69 => 
             array (
@@ -18860,8 +18860,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             70 => 
             array (
@@ -18872,8 +18872,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             71 => 
             array (
@@ -18884,8 +18884,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             72 => 
             array (
@@ -18896,8 +18896,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             73 => 
             array (
@@ -18908,8 +18908,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             74 => 
             array (
@@ -18920,8 +18920,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             75 => 
             array (
@@ -18932,8 +18932,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             76 => 
             array (
@@ -18944,8 +18944,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             77 => 
             array (
@@ -18956,8 +18956,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             78 => 
             array (
@@ -18968,8 +18968,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             79 => 
             array (
@@ -18980,8 +18980,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             80 => 
             array (
@@ -18992,8 +18992,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             81 => 
             array (
@@ -19004,8 +19004,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             82 => 
             array (
@@ -19016,8 +19016,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             83 => 
             array (
@@ -19028,8 +19028,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             84 => 
             array (
@@ -19040,8 +19040,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             85 => 
             array (
@@ -19052,8 +19052,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             86 => 
             array (
@@ -19064,8 +19064,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             87 => 
             array (
@@ -19076,8 +19076,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             88 => 
             array (
@@ -19088,8 +19088,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             89 => 
             array (
@@ -19100,8 +19100,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             90 => 
             array (
@@ -19112,8 +19112,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             91 => 
             array (
@@ -19124,8 +19124,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             92 => 
             array (
@@ -19136,8 +19136,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             93 => 
             array (
@@ -19148,8 +19148,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             94 => 
             array (
@@ -19160,8 +19160,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             95 => 
             array (
@@ -19172,8 +19172,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             96 => 
             array (
@@ -19184,8 +19184,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             97 => 
             array (
@@ -19196,8 +19196,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             98 => 
             array (
@@ -19208,8 +19208,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             99 => 
             array (
@@ -19220,8 +19220,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             100 => 
             array (
@@ -19232,8 +19232,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             101 => 
             array (
@@ -19244,8 +19244,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             102 => 
             array (
@@ -19256,8 +19256,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             103 => 
             array (
@@ -19268,8 +19268,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             104 => 
             array (
@@ -19280,8 +19280,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             105 => 
             array (
@@ -19292,8 +19292,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             106 => 
             array (
@@ -19304,8 +19304,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             107 => 
             array (
@@ -19316,8 +19316,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             108 => 
             array (
@@ -19328,8 +19328,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             109 => 
             array (
@@ -19340,8 +19340,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             110 => 
             array (
@@ -19352,8 +19352,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             111 => 
             array (
@@ -19364,8 +19364,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             112 => 
             array (
@@ -19376,8 +19376,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             113 => 
             array (
@@ -19388,8 +19388,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             114 => 
             array (
@@ -19400,8 +19400,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             115 => 
             array (
@@ -19412,8 +19412,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             116 => 
             array (
@@ -19424,8 +19424,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             117 => 
             array (
@@ -19436,8 +19436,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             118 => 
             array (
@@ -19448,8 +19448,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             119 => 
             array (
@@ -19460,8 +19460,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             120 => 
             array (
@@ -19472,8 +19472,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             121 => 
             array (
@@ -19484,8 +19484,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             122 => 
             array (
@@ -19496,8 +19496,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             123 => 
             array (
@@ -19508,8 +19508,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             124 => 
             array (
@@ -19520,8 +19520,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             125 => 
             array (
@@ -19532,8 +19532,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             126 => 
             array (
@@ -19544,8 +19544,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             127 => 
             array (
@@ -19556,8 +19556,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             128 => 
             array (
@@ -19568,8 +19568,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             129 => 
             array (
@@ -19580,8 +19580,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             130 => 
             array (
@@ -19592,8 +19592,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             131 => 
             array (
@@ -19604,8 +19604,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             132 => 
             array (
@@ -19616,8 +19616,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             133 => 
             array (
@@ -19628,8 +19628,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             134 => 
             array (
@@ -19640,8 +19640,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             135 => 
             array (
@@ -19652,8 +19652,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             136 => 
             array (
@@ -19664,8 +19664,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             137 => 
             array (
@@ -19676,8 +19676,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             138 => 
             array (
@@ -19688,8 +19688,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             139 => 
             array (
@@ -19700,8 +19700,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             140 => 
             array (
@@ -19712,8 +19712,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             141 => 
             array (
@@ -19724,8 +19724,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             142 => 
             array (
@@ -19736,8 +19736,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             143 => 
             array (
@@ -19748,8 +19748,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             144 => 
             array (
@@ -19760,8 +19760,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             145 => 
             array (
@@ -19772,8 +19772,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             146 => 
             array (
@@ -19784,8 +19784,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             147 => 
             array (
@@ -19796,8 +19796,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             148 => 
             array (
@@ -19808,8 +19808,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             149 => 
             array (
@@ -19820,8 +19820,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             150 => 
             array (
@@ -19832,8 +19832,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             151 => 
             array (
@@ -19844,8 +19844,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             152 => 
             array (
@@ -19856,8 +19856,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             153 => 
             array (
@@ -19868,8 +19868,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             154 => 
             array (
@@ -19880,8 +19880,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             155 => 
             array (
@@ -19892,8 +19892,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             156 => 
             array (
@@ -19904,8 +19904,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             157 => 
             array (
@@ -19916,8 +19916,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             158 => 
             array (
@@ -19928,8 +19928,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             159 => 
             array (
@@ -19940,8 +19940,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             160 => 
             array (
@@ -19952,8 +19952,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             161 => 
             array (
@@ -19964,8 +19964,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             162 => 
             array (
@@ -19976,8 +19976,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             163 => 
             array (
@@ -19988,8 +19988,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             164 => 
             array (
@@ -20000,8 +20000,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             165 => 
             array (
@@ -20012,8 +20012,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             166 => 
             array (
@@ -20024,8 +20024,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             167 => 
             array (
@@ -20036,8 +20036,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             168 => 
             array (
@@ -20048,8 +20048,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             169 => 
             array (
@@ -20060,8 +20060,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             170 => 
             array (
@@ -20072,8 +20072,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             171 => 
             array (
@@ -20084,8 +20084,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             172 => 
             array (
@@ -20096,8 +20096,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             173 => 
             array (
@@ -20108,8 +20108,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             174 => 
             array (
@@ -20120,8 +20120,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             175 => 
             array (
@@ -20132,8 +20132,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             176 => 
             array (
@@ -20144,8 +20144,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             177 => 
             array (
@@ -20156,8 +20156,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             178 => 
             array (
@@ -20168,8 +20168,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             179 => 
             array (
@@ -20180,8 +20180,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             180 => 
             array (
@@ -20192,8 +20192,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             181 => 
             array (
@@ -20204,8 +20204,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             182 => 
             array (
@@ -20216,8 +20216,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             183 => 
             array (
@@ -20228,8 +20228,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             184 => 
             array (
@@ -20240,8 +20240,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             185 => 
             array (
@@ -20252,8 +20252,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             186 => 
             array (
@@ -20264,8 +20264,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             187 => 
             array (
@@ -20276,8 +20276,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             188 => 
             array (
@@ -20288,8 +20288,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             189 => 
             array (
@@ -20300,8 +20300,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             190 => 
             array (
@@ -20312,8 +20312,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             191 => 
             array (
@@ -20324,8 +20324,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             192 => 
             array (
@@ -20336,8 +20336,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             193 => 
             array (
@@ -20348,8 +20348,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             194 => 
             array (
@@ -20360,8 +20360,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             195 => 
             array (
@@ -20372,8 +20372,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             196 => 
             array (
@@ -20384,8 +20384,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             197 => 
             array (
@@ -20396,8 +20396,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             198 => 
             array (
@@ -20408,8 +20408,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             199 => 
             array (
@@ -20420,8 +20420,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             200 => 
             array (
@@ -20432,8 +20432,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             201 => 
             array (
@@ -20444,8 +20444,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             202 => 
             array (
@@ -20456,8 +20456,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             203 => 
             array (
@@ -20468,8 +20468,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             204 => 
             array (
@@ -20480,8 +20480,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             205 => 
             array (
@@ -20492,8 +20492,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             206 => 
             array (
@@ -20504,8 +20504,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             207 => 
             array (
@@ -20516,8 +20516,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             208 => 
             array (
@@ -20528,8 +20528,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             209 => 
             array (
@@ -20540,8 +20540,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             210 => 
             array (
@@ -20552,8 +20552,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             211 => 
             array (
@@ -20564,8 +20564,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             212 => 
             array (
@@ -20576,8 +20576,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             213 => 
             array (
@@ -20588,8 +20588,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             214 => 
             array (
@@ -20600,8 +20600,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             215 => 
             array (
@@ -20612,8 +20612,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             216 => 
             array (
@@ -20624,8 +20624,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             217 => 
             array (
@@ -20636,8 +20636,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             218 => 
             array (
@@ -20648,8 +20648,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             219 => 
             array (
@@ -20660,8 +20660,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             220 => 
             array (
@@ -20672,8 +20672,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             221 => 
             array (
@@ -20684,8 +20684,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             222 => 
             array (
@@ -20696,8 +20696,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             223 => 
             array (
@@ -20708,8 +20708,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             224 => 
             array (
@@ -20720,8 +20720,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             225 => 
             array (
@@ -20732,8 +20732,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             226 => 
             array (
@@ -20744,8 +20744,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             227 => 
             array (
@@ -20756,8 +20756,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             228 => 
             array (
@@ -20768,8 +20768,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             229 => 
             array (
@@ -20780,8 +20780,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             230 => 
             array (
@@ -20792,8 +20792,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             231 => 
             array (
@@ -20804,8 +20804,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 22,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             232 => 
             array (
@@ -20816,8 +20816,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             233 => 
             array (
@@ -20828,8 +20828,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             234 => 
             array (
@@ -20840,8 +20840,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             235 => 
             array (
@@ -20852,8 +20852,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             236 => 
             array (
@@ -20864,8 +20864,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             237 => 
             array (
@@ -20876,8 +20876,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             238 => 
             array (
@@ -20888,8 +20888,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             239 => 
             array (
@@ -20900,8 +20900,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             240 => 
             array (
@@ -20912,8 +20912,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             241 => 
             array (
@@ -20924,8 +20924,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             242 => 
             array (
@@ -20936,8 +20936,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             243 => 
             array (
@@ -20948,8 +20948,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 23,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             244 => 
             array (
@@ -20960,8 +20960,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             245 => 
             array (
@@ -20972,8 +20972,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             246 => 
             array (
@@ -20984,8 +20984,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             247 => 
             array (
@@ -20996,8 +20996,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             248 => 
             array (
@@ -21008,8 +21008,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             249 => 
             array (
@@ -21020,8 +21020,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             250 => 
             array (
@@ -21032,8 +21032,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             251 => 
             array (
@@ -21044,8 +21044,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             252 => 
             array (
@@ -21056,8 +21056,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             253 => 
             array (
@@ -21068,8 +21068,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             254 => 
             array (
@@ -21080,8 +21080,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             255 => 
             array (
@@ -21092,8 +21092,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 24,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             256 => 
             array (
@@ -21104,8 +21104,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 15,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             257 => 
             array (
@@ -21116,8 +21116,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 15,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             258 => 
             array (
@@ -21128,8 +21128,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 15,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             259 => 
             array (
@@ -21140,8 +21140,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 13,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             260 => 
             array (
@@ -21152,8 +21152,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 13,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             261 => 
             array (
@@ -21164,8 +21164,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 13,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             262 => 
             array (
@@ -21176,8 +21176,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 14,
                 'field_id' => 1,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             263 => 
             array (
@@ -21188,8 +21188,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 14,
                 'field_id' => 2,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             264 => 
             array (
@@ -21200,8 +21200,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 14,
                 'field_id' => 3,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             265 => 
             array (
@@ -21212,8 +21212,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 14,
                 'field_id' => 4,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             266 => 
             array (
@@ -21224,8 +21224,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 14,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             267 => 
             array (
@@ -21236,8 +21236,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 25,
                 'quality_id' => 14,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             268 => 
             array (
@@ -21248,8 +21248,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             269 => 
             array (
@@ -21260,8 +21260,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             270 => 
             array (
@@ -21272,8 +21272,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             271 => 
             array (
@@ -21284,8 +21284,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             272 => 
             array (
@@ -21296,8 +21296,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             273 => 
             array (
@@ -21308,8 +21308,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             274 => 
             array (
@@ -21320,8 +21320,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             275 => 
             array (
@@ -21332,8 +21332,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             276 => 
             array (
@@ -21344,8 +21344,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             277 => 
             array (
@@ -21356,8 +21356,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 1,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             278 => 
             array (
@@ -21368,8 +21368,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             279 => 
             array (
@@ -21380,8 +21380,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             280 => 
             array (
@@ -21392,8 +21392,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             281 => 
             array (
@@ -21404,8 +21404,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             282 => 
             array (
@@ -21416,8 +21416,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             283 => 
             array (
@@ -21428,8 +21428,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             284 => 
             array (
@@ -21440,8 +21440,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             285 => 
             array (
@@ -21452,8 +21452,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             286 => 
             array (
@@ -21464,8 +21464,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             287 => 
             array (
@@ -21476,8 +21476,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             288 => 
             array (
@@ -21488,8 +21488,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             289 => 
             array (
@@ -21500,8 +21500,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 2,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             290 => 
             array (
@@ -21512,8 +21512,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             291 => 
             array (
@@ -21524,8 +21524,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             292 => 
             array (
@@ -21536,8 +21536,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             293 => 
             array (
@@ -21548,8 +21548,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             294 => 
             array (
@@ -21560,8 +21560,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             295 => 
             array (
@@ -21572,8 +21572,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             296 => 
             array (
@@ -21584,8 +21584,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             297 => 
             array (
@@ -21596,8 +21596,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             298 => 
             array (
@@ -21608,8 +21608,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             299 => 
             array (
@@ -21620,8 +21620,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             300 => 
             array (
@@ -21632,8 +21632,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             301 => 
             array (
@@ -21644,8 +21644,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 3,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             302 => 
             array (
@@ -21656,8 +21656,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             303 => 
             array (
@@ -21668,8 +21668,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             304 => 
             array (
@@ -21680,8 +21680,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             305 => 
             array (
@@ -21692,8 +21692,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             306 => 
             array (
@@ -21704,8 +21704,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             307 => 
             array (
@@ -21716,8 +21716,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             308 => 
             array (
@@ -21728,8 +21728,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             309 => 
             array (
@@ -21740,8 +21740,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             310 => 
             array (
@@ -21752,8 +21752,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             311 => 
             array (
@@ -21764,8 +21764,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             312 => 
             array (
@@ -21776,8 +21776,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             313 => 
             array (
@@ -21788,8 +21788,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 4,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             314 => 
             array (
@@ -21800,8 +21800,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             315 => 
             array (
@@ -21812,8 +21812,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             316 => 
             array (
@@ -21824,8 +21824,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             317 => 
             array (
@@ -21836,8 +21836,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             318 => 
             array (
@@ -21848,8 +21848,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             319 => 
             array (
@@ -21860,8 +21860,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             320 => 
             array (
@@ -21872,8 +21872,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             321 => 
             array (
@@ -21884,8 +21884,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             322 => 
             array (
@@ -21896,8 +21896,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             323 => 
             array (
@@ -21908,8 +21908,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             324 => 
             array (
@@ -21920,8 +21920,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             325 => 
             array (
@@ -21932,8 +21932,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 5,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             326 => 
             array (
@@ -21944,8 +21944,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             327 => 
             array (
@@ -21956,8 +21956,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             328 => 
             array (
@@ -21968,8 +21968,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             329 => 
             array (
@@ -21980,8 +21980,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             330 => 
             array (
@@ -21992,8 +21992,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             331 => 
             array (
@@ -22004,8 +22004,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             332 => 
             array (
@@ -22016,8 +22016,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             333 => 
             array (
@@ -22028,8 +22028,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             334 => 
             array (
@@ -22040,8 +22040,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             335 => 
             array (
@@ -22052,8 +22052,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             336 => 
             array (
@@ -22064,8 +22064,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             337 => 
             array (
@@ -22076,8 +22076,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 6,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             338 => 
             array (
@@ -22088,8 +22088,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             339 => 
             array (
@@ -22100,8 +22100,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             340 => 
             array (
@@ -22112,8 +22112,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             341 => 
             array (
@@ -22124,8 +22124,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             342 => 
             array (
@@ -22136,8 +22136,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             343 => 
             array (
@@ -22148,8 +22148,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             344 => 
             array (
@@ -22160,8 +22160,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             345 => 
             array (
@@ -22172,8 +22172,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             346 => 
             array (
@@ -22184,8 +22184,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             347 => 
             array (
@@ -22196,8 +22196,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             348 => 
             array (
@@ -22208,8 +22208,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             349 => 
             array (
@@ -22220,8 +22220,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 7,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             350 => 
             array (
@@ -22232,8 +22232,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             351 => 
             array (
@@ -22244,8 +22244,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             352 => 
             array (
@@ -22256,8 +22256,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             353 => 
             array (
@@ -22268,8 +22268,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             354 => 
             array (
@@ -22280,8 +22280,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             355 => 
             array (
@@ -22292,8 +22292,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             356 => 
             array (
@@ -22304,8 +22304,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             357 => 
             array (
@@ -22316,8 +22316,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             358 => 
             array (
@@ -22328,8 +22328,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             359 => 
             array (
@@ -22340,8 +22340,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             360 => 
             array (
@@ -22352,8 +22352,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             361 => 
             array (
@@ -22364,8 +22364,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 8,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             362 => 
             array (
@@ -22376,8 +22376,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             363 => 
             array (
@@ -22388,8 +22388,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             364 => 
             array (
@@ -22400,8 +22400,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             365 => 
             array (
@@ -22412,8 +22412,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             366 => 
             array (
@@ -22424,8 +22424,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             367 => 
             array (
@@ -22436,8 +22436,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             368 => 
             array (
@@ -22448,8 +22448,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             369 => 
             array (
@@ -22460,8 +22460,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             370 => 
             array (
@@ -22472,8 +22472,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             371 => 
             array (
@@ -22484,8 +22484,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             372 => 
             array (
@@ -22496,8 +22496,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             373 => 
             array (
@@ -22508,8 +22508,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 9,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             374 => 
             array (
@@ -22520,8 +22520,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             375 => 
             array (
@@ -22532,8 +22532,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             376 => 
             array (
@@ -22544,8 +22544,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             377 => 
             array (
@@ -22556,8 +22556,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             378 => 
             array (
@@ -22568,8 +22568,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             379 => 
             array (
@@ -22580,8 +22580,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             380 => 
             array (
@@ -22592,8 +22592,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             381 => 
             array (
@@ -22604,8 +22604,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             382 => 
             array (
@@ -22616,8 +22616,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             383 => 
             array (
@@ -22628,8 +22628,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             384 => 
             array (
@@ -22640,8 +22640,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             385 => 
             array (
@@ -22652,8 +22652,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 10,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             386 => 
             array (
@@ -22664,8 +22664,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             387 => 
             array (
@@ -22676,8 +22676,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             388 => 
             array (
@@ -22688,8 +22688,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             389 => 
             array (
@@ -22700,8 +22700,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             390 => 
             array (
@@ -22712,8 +22712,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             391 => 
             array (
@@ -22724,8 +22724,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             392 => 
             array (
@@ -22736,8 +22736,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             393 => 
             array (
@@ -22748,8 +22748,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             394 => 
             array (
@@ -22760,8 +22760,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             395 => 
             array (
@@ -22772,8 +22772,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             396 => 
             array (
@@ -22784,8 +22784,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             397 => 
             array (
@@ -22796,8 +22796,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 11,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             398 => 
             array (
@@ -22808,8 +22808,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             399 => 
             array (
@@ -22820,8 +22820,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             400 => 
             array (
@@ -22832,8 +22832,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             401 => 
             array (
@@ -22844,8 +22844,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             402 => 
             array (
@@ -22856,8 +22856,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             403 => 
             array (
@@ -22868,8 +22868,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             404 => 
             array (
@@ -22880,8 +22880,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             405 => 
             array (
@@ -22892,8 +22892,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             406 => 
             array (
@@ -22904,8 +22904,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             407 => 
             array (
@@ -22916,8 +22916,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             408 => 
             array (
@@ -22928,8 +22928,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             409 => 
             array (
@@ -22940,8 +22940,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 12,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             410 => 
             array (
@@ -22952,8 +22952,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             411 => 
             array (
@@ -22964,8 +22964,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             412 => 
             array (
@@ -22976,8 +22976,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             413 => 
             array (
@@ -22988,8 +22988,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             414 => 
             array (
@@ -23000,8 +23000,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             415 => 
             array (
@@ -23012,8 +23012,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             416 => 
             array (
@@ -23024,8 +23024,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             417 => 
             array (
@@ -23036,8 +23036,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             418 => 
             array (
@@ -23048,8 +23048,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             419 => 
             array (
@@ -23060,8 +23060,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             420 => 
             array (
@@ -23072,8 +23072,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             421 => 
             array (
@@ -23084,8 +23084,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 13,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             422 => 
             array (
@@ -23096,8 +23096,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             423 => 
             array (
@@ -23108,8 +23108,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             424 => 
             array (
@@ -23120,8 +23120,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             425 => 
             array (
@@ -23132,8 +23132,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             426 => 
             array (
@@ -23144,8 +23144,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             427 => 
             array (
@@ -23156,8 +23156,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             428 => 
             array (
@@ -23168,8 +23168,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             429 => 
             array (
@@ -23180,8 +23180,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             430 => 
             array (
@@ -23192,8 +23192,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             431 => 
             array (
@@ -23204,8 +23204,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             432 => 
             array (
@@ -23216,8 +23216,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             433 => 
             array (
@@ -23228,8 +23228,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 14,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             434 => 
             array (
@@ -23240,8 +23240,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             435 => 
             array (
@@ -23252,8 +23252,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             436 => 
             array (
@@ -23264,8 +23264,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             437 => 
             array (
@@ -23276,8 +23276,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             438 => 
             array (
@@ -23288,8 +23288,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             439 => 
             array (
@@ -23300,8 +23300,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             440 => 
             array (
@@ -23312,8 +23312,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             441 => 
             array (
@@ -23324,8 +23324,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             442 => 
             array (
@@ -23336,8 +23336,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             443 => 
             array (
@@ -23348,8 +23348,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             444 => 
             array (
@@ -23360,8 +23360,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             445 => 
             array (
@@ -23372,8 +23372,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 15,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             446 => 
             array (
@@ -23384,8 +23384,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             447 => 
             array (
@@ -23396,8 +23396,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             448 => 
             array (
@@ -23408,8 +23408,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             449 => 
             array (
@@ -23420,8 +23420,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             450 => 
             array (
@@ -23432,8 +23432,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             451 => 
             array (
@@ -23444,8 +23444,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             452 => 
             array (
@@ -23456,8 +23456,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             453 => 
             array (
@@ -23468,8 +23468,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             454 => 
             array (
@@ -23480,8 +23480,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             455 => 
             array (
@@ -23492,8 +23492,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             456 => 
             array (
@@ -23504,8 +23504,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             457 => 
             array (
@@ -23516,8 +23516,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 16,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             458 => 
             array (
@@ -23528,8 +23528,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             459 => 
             array (
@@ -23540,8 +23540,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             460 => 
             array (
@@ -23552,8 +23552,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             461 => 
             array (
@@ -23564,8 +23564,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             462 => 
             array (
@@ -23576,8 +23576,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             463 => 
             array (
@@ -23588,8 +23588,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             464 => 
             array (
@@ -23600,8 +23600,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             465 => 
             array (
@@ -23612,8 +23612,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             466 => 
             array (
@@ -23624,8 +23624,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             467 => 
             array (
@@ -23636,8 +23636,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             468 => 
             array (
@@ -23648,8 +23648,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             469 => 
             array (
@@ -23660,8 +23660,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 17,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             470 => 
             array (
@@ -23672,8 +23672,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             471 => 
             array (
@@ -23684,8 +23684,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             472 => 
             array (
@@ -23696,8 +23696,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             473 => 
             array (
@@ -23708,8 +23708,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             474 => 
             array (
@@ -23720,8 +23720,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             475 => 
             array (
@@ -23732,8 +23732,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             476 => 
             array (
@@ -23744,8 +23744,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             477 => 
             array (
@@ -23756,8 +23756,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             478 => 
             array (
@@ -23768,8 +23768,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             479 => 
             array (
@@ -23780,8 +23780,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             480 => 
             array (
@@ -23792,8 +23792,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             481 => 
             array (
@@ -23804,8 +23804,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 18,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             482 => 
             array (
@@ -23816,8 +23816,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             483 => 
             array (
@@ -23828,8 +23828,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             484 => 
             array (
@@ -23840,8 +23840,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             485 => 
             array (
@@ -23852,8 +23852,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             486 => 
             array (
@@ -23864,8 +23864,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             487 => 
             array (
@@ -23876,8 +23876,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             488 => 
             array (
@@ -23888,8 +23888,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             489 => 
             array (
@@ -23900,8 +23900,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             490 => 
             array (
@@ -23912,8 +23912,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             491 => 
             array (
@@ -23924,8 +23924,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             492 => 
             array (
@@ -23936,8 +23936,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             493 => 
             array (
@@ -23948,8 +23948,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 19,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             494 => 
             array (
@@ -23960,8 +23960,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             495 => 
             array (
@@ -23972,8 +23972,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             496 => 
             array (
@@ -23984,8 +23984,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             497 => 
             array (
@@ -23996,8 +23996,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             498 => 
             array (
@@ -24008,8 +24008,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             499 => 
             array (
@@ -24020,8 +24020,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
         ));
         \DB::table('tolerances')->insert(array (
@@ -24034,8 +24034,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             1 => 
             array (
@@ -24046,8 +24046,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             2 => 
             array (
@@ -24058,8 +24058,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             3 => 
             array (
@@ -24070,8 +24070,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             4 => 
             array (
@@ -24082,8 +24082,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             5 => 
             array (
@@ -24094,8 +24094,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 20,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             6 => 
             array (
@@ -24106,8 +24106,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 16,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             7 => 
             array (
@@ -24118,8 +24118,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 16,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             8 => 
             array (
@@ -24130,8 +24130,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 17,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             9 => 
             array (
@@ -24142,8 +24142,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 17,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             10 => 
             array (
@@ -24154,8 +24154,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 18,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             11 => 
             array (
@@ -24166,8 +24166,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 18,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             12 => 
             array (
@@ -24178,8 +24178,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 19,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             13 => 
             array (
@@ -24190,8 +24190,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 19,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             14 => 
             array (
@@ -24202,8 +24202,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 20,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             15 => 
             array (
@@ -24214,8 +24214,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 20,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             16 => 
             array (
@@ -24226,8 +24226,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 21,
                 'field_id' => 9,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
             17 => 
             array (
@@ -24238,8 +24238,8 @@ class TolerancesTableSeeder extends Seeder
                 'range_id' => 21,
                 'quality_id' => 21,
                 'field_id' => 8,
-                'created_at' => '0000-00-00 00:00:00',
-                'updated_at' => '0000-00-00 00:00:00',
+                'created_at' => date('Y-m-d H:i:s'),
+                'updated_at' => date('Y-m-d H:i:s'),
             ),
         ));
         
