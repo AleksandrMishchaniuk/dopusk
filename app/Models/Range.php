@@ -6,9 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Range extends Model
 {
-    public $timestamps = false;
+    /**
+     * @var array
+     */
     protected $fillable = ['min_val', 'max_val'];
 
+    /**
+     * @return array
+     */
     public static function getRules()
     {
         return [
@@ -16,6 +21,10 @@ class Range extends Model
             'max_val' => 'required|integer|between:3,3150|greater_than:min_val',
         ];
     }
+
+    /**
+     * @return array
+     */
     public static function getErrMsgs()
     {
         return [
@@ -23,16 +32,25 @@ class Range extends Model
         ];
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
     public function tolerances()
     {
-        return $hasMany('Tolerance');
+        return $this->hasMany('Tolerance');
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasManyThrough
+     */
     public function qualities()
     {
         return $this->hasManyThrough('Quality', 'Tolerance');
     }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasManyThrough
+     */
     public function fields()
     {
         return $this->hasManyThrough('Field', 'Tolerance');

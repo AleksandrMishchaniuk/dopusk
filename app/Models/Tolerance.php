@@ -2,27 +2,37 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 class Tolerance extends Model
 {
   const SYSTEMS = ['hole', 'shaft'];
 
-  public $timestamps = false;
-  protected $fillable = ['system', 'max_val', 'min_val',
+    /**
+     * @var array
+     */
+    protected $fillable = ['system', 'max_val', 'min_val',
                           'range_id', 'quality_id', 'field_id'];
 
-  public static function getRules()
-  {
-      return [
-          'system' => "required|in:".implode(',', self::SYSTEMS),
-          'max_val' => 'sometimes|numeric|greater_than:min_val',
-          'min_val' => 'sometimes|numeric',
-          'range_id' => 'required',
-          'quality_id' => 'required',
-          'field_id' => 'required',
-      ];
-  }
+    /**
+     * @return array
+     */
+    public static function getRules()
+    {
+        return [
+            'system' => "required|in:".implode(',', self::SYSTEMS),
+            'max_val' => 'sometimes|numeric|greater_than:min_val',
+            'min_val' => 'sometimes|numeric',
+            'range_id' => 'required',
+            'quality_id' => 'required',
+            'field_id' => 'required',
+        ];
+    }
+
+    /**
+     * @return array
+     */
   public static function getErrMsgs()
   {
       return [
@@ -30,22 +40,36 @@ class Tolerance extends Model
       ];
   }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
   public function range()
   {
-    return $this->belongsTo('Range');
+    return $this->belongsTo(Range::class);
   }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
   public function quality()
   {
-    return $this->belongsTo('Quality');
+    return $this->belongsTo(Quality::class);
   }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
   public function field()
   {
-    return $this->belongsTo('Field');
+    return $this->belongsTo(Field::class);
   }
 
-  public function scopeByRange($query, $range_id)
+    /**
+     * @param Builder $query
+     * @param $range_id
+     * @return Builder
+     */
+  public function scopeByRange(Builder $query, $range_id)
   {
       if ($range_id) {
           return $query->where('range_id', $range_id);
@@ -53,7 +77,12 @@ class Tolerance extends Model
       return $query;
   }
 
-  public function scopeByQuality($query, $quality_id)
+    /**
+     * @param Builder $query
+     * @param $quality_id
+     * @return Builder
+     */
+  public function scopeByQuality(Builder $query, $quality_id)
   {
       if ($quality_id) {
           return $query->where('quality_id', $quality_id);
@@ -61,7 +90,12 @@ class Tolerance extends Model
       return $query;
   }
 
-  public function scopeByField($query, $field_id)
+    /**
+     * @param Builder $query
+     * @param $field_id
+     * @return Builder
+     */
+  public function scopeByField(Builder $query, $field_id)
   {
       if ($field_id) {
           return $query->where('field_id', $field_id);
@@ -69,7 +103,12 @@ class Tolerance extends Model
       return $query;
   }
 
-  public function scopeBySystem($query, $system)
+    /**
+     * @param Builder $query
+     * @param $system
+     * @return Builder
+     */
+  public function scopeBySystem(Builder $query, $system)
   {
       if ($system) {
           return $query->where('system', $system);

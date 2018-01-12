@@ -6,9 +6,14 @@ use Illuminate\Database\Eloquent\Model;
 
 class Quality extends Model
 {
-  public $timestamps = false;
+    /**
+     * @var array
+     */
   protected $fillable = ['value'];
 
+    /**
+     * @return array
+     */
   public static function getRules()
   {
       return [
@@ -16,16 +21,25 @@ class Quality extends Model
       ];
   }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
   public function tolerances()
   {
-      return $hasMany('Tolerance');
+      return $this->hasMany('Tolerance');
   }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasManyThrough
+     */
   public function fields()
   {
       return $this->hasManyThrough('Field', 'Tolerance');
   }
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasManyThrough
+     */
   public function ranges()
   {
       return $this->hasManyThrough('Range', 'Tolerance');
