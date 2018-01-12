@@ -4,6 +4,22 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * App\Models\Quality
+ *
+ * @property int $id
+ * @property string $value
+ * @property \Carbon\Carbon|null $created_at
+ * @property \Carbon\Carbon|null $updated_at
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Field[] $fields
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Range[] $ranges
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Tolerance[] $tolerances
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Quality whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Quality whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Quality whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|\App\Models\Quality whereValue($value)
+ * @mixin \Eloquent
+ */
 class Quality extends Model
 {
     /**
@@ -26,7 +42,7 @@ class Quality extends Model
      */
   public function tolerances()
   {
-      return $this->hasMany('Tolerance');
+      return $this->hasMany(Tolerance::class);
   }
 
     /**
@@ -34,7 +50,7 @@ class Quality extends Model
      */
   public function fields()
   {
-      return $this->hasManyThrough('Field', 'Tolerance');
+      return $this->hasManyThrough(Field::class, Tolerance::class);
   }
 
     /**
@@ -42,6 +58,6 @@ class Quality extends Model
      */
   public function ranges()
   {
-      return $this->hasManyThrough('Range', 'Tolerance');
+      return $this->hasManyThrough(Range::class, Tolerance::class);
   }
 }
