@@ -52,8 +52,8 @@ class Tolerance extends Model
     {
         return [
             'system' => "required|in:".implode(',', self::SYSTEMS),
-            'max_val' => 'sometimes|numeric|greater_than:min_val',
-            'min_val' => 'sometimes|numeric',
+            'max_val' => 'nullable|numeric|greater_than:min_val',
+            'min_val' => 'nullable|numeric',
             'range_id' => 'required',
             'quality_id' => 'required',
             'field_id' => 'required',
