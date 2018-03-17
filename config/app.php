@@ -52,7 +52,10 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'schema' => env('APP_SCHEMA', 'http'),
+    'domain' => env('APP_DOMAIN', 'localhost'),
+    'url' => env('APP_SCHEMA', 'http') . '://' . env('APP_DOMAIN', 'localhost'),
+//    'url' => env('APP_URL', 'http://localhost'),
 
     /*
     |--------------------------------------------------------------------------

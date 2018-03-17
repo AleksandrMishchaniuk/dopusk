@@ -37,7 +37,9 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Tolerance extends Model
 {
-  const SYSTEMS = ['hole', 'shaft'];
+    const SYSTEM_HOLE = 'hole';
+    const SYSTEM_SHAFT = 'shaft';
+    const SYSTEMS = [self::SYSTEM_HOLE, self::SYSTEM_SHAFT];
 
     /**
      * @var array
