@@ -20,14 +20,6 @@ class DopuskController extends Controller
     }
 
     /**
-     * @return array
-     */
-    public function systems()
-    {
-        return Tolerance::SYSTEMS;
-    }
-
-    /**
      * @param Request $request
      * @return \Illuminate\Support\Collection|static
      */
@@ -35,22 +27,22 @@ class DopuskController extends Controller
     {
         $this->validate($request, [
             'size' => 'required|numeric|min:0',
-            'system' => 'required|in:' . implode(',', Tolerance::SYSTEMS),
         ]);
 
-        $system = $request->get('system');
-
-        $results = TolerancesView::query()->select('field', 'quality')
+        $results = TolerancesView::query()->select('field', 'quality', 'system')
             ->where('min_size', '<', $request->get('size'))
             ->where('max_size', '>', $request->get('size'))
-            ->where('system', '=', $system)
             ->get();
 
-        return $results->map(function (TolerancesView $result) use ($system) {
-            return ($system == Tolerance::SYSTEM_HOLE ? strtoupper($result->field) : $result->field) . $result->quality;
+        return $results->map(function (TolerancesView $result) {
+            return ($result->system == Tolerance::SYSTEM_HOLE ? strtoupper($result->field) : $result->field) . $result->quality;
         });
     }
 
+    /**
+     * @param Request $request
+     * @return \Illuminate\Database\Eloquent\Model|null|static
+     */
     public function tolerance(Request $request)
     {
         $pattern = '~([a-zA-z]+)([0-9]+)~';
