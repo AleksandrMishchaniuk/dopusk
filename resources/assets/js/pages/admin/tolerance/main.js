@@ -3,7 +3,7 @@ require('angular');
 var app = angular.module('ToleranceApp', [])
                   .constant('API_URL', '/admin/api/v1/');
 
-app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
+app.controller('ToleranceAppCtrl', ['$scope', '$http', 'API_URL', function($scope, $http, API_URL){
 
   resetCurItemForm();
 
@@ -225,9 +225,9 @@ app.controller('ToleranceAppCtrl', function($scope, $http, API_URL){
         }
     })
   }
-});
+}]);
 
-app.directive('focus', function($parse, $timeout){
+app.directive('focus', ['$parse', '$timeout', function($parse, $timeout){
   return {
     link: function(scope, element, attrs){
       var model = $parse(attrs.focus);
@@ -243,4 +243,4 @@ app.directive('focus', function($parse, $timeout){
       });
     }
   };
-});
+}]);

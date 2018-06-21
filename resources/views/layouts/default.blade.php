@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Dopusk. Допуски и Посадки</title>
+	<meta name="csrf-token" content="{{ csrf_token() }}">
 	{!! Html::style('css/app.css') !!}
   @yield('template_styles')
 </head>
