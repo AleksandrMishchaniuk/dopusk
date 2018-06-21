@@ -1,0 +1,52 @@
+version: "3.1"
+services:
+  node:
+    build: ./node
+    image: developer.mach.org.ua_node_image
+    container_name: developer.mach.org.ua_node
+    volumes:
+      - "./..:/code"
+    working_dir: /code
+    tty: true
+    stdin_open: true
+  nginx:
+    image: nginx:alpine
+    container_name: developer.mach.org.ua_nginx
+    volumes:
+      - "./..:/var/www"
+      - "./nginx/logs:/var/log/nginx"
+      - "./nginx/conf.d:/etc/nginx/conf.d"
+    ports:
+      - "80:80"
+    links:
+      - php-fpm
+  php-fpm:
+    build: ./php-fpm
+    image: developer.mach.org.ua_php_image
+    container_name: developer.mach.org.ua_php
+    volumes:
+      - "./..:/var/www"
+    working_dir: /var/www
+    links:
+      - db
+  db:
+    image: mysql:5.7
+    container_name: developer.mach.org.ua_db
+    volumes:
+      - "./db/data:/var/lib/mysql"
+      - "./db/custom.cnf:/etc/mysql/conf.d/custom.cnf"
+      - "./db/logs/mysql-slow.log:/var/log/mysql/mysql-slow.log"
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_USER: homestead
+      MYSQL_PASSWORD: secret
+      MYSQL_DATABASE: dopusk_local
+    secrets:
+      - db_password
+      - db_name
+
+secrets:
+  db_password:
+    file: ./db/secrets/db_password.txt
+  db_name:
+    file: ./db/secrets/db_name.txt
