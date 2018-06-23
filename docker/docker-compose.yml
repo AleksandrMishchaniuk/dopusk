@@ -1,6 +1,6 @@
 version: "3.1"
 services:
-  node:
+  developer-node:
     build: ./node
     image: developer.mach.org.ua_node_image
     container_name: developer.mach.org.ua_node
@@ -9,18 +9,39 @@ services:
     working_dir: /code
     tty: true
     stdin_open: true
-  nginx:
+  developer-nginx:
     image: nginx:alpine
     container_name: developer.mach.org.ua_nginx
     volumes:
       - "./..:/var/www"
       - "./nginx/logs:/var/log/nginx"
       - "./nginx/conf.d:/etc/nginx/conf.d"
-    ports:
-      - "80:80"
+    expose:
+      - 80
     links:
-      - php-fpm
-  php-fpm:
+      - developer-php-fpm
+    environment:
+      VIRTUAL_HOST: developer.mach.org.ua
+      VIRTUAL_PORT: 80
+      LETSENCRYPT_HOST: developer.mach.org.ua
+      LETSENCRYPT_EMAIL: admin@developer.mach.org.ua
+  api-developer-nginx:
+      image: nginx:alpine
+      container_name: api.developer.mach.org.ua_nginx
+      volumes:
+        - "./..:/var/www"
+        - "./nginx/logs:/var/log/nginx"
+        - "./nginx/conf.d:/etc/nginx/conf.d"
+      expose:
+        - 80
+      links:
+        - developer-php-fpm
+      environment:
+        VIRTUAL_HOST: api.developer.mach.org.ua
+        VIRTUAL_PORT: 80
+        LETSENCRYPT_HOST: api.developer.mach.org.ua
+        LETSENCRYPT_EMAIL: api.admin@developer.mach.org.ua
+  developer-php-fpm:
     build: ./php-fpm
     image: developer.mach.org.ua_php_image
     container_name: developer.mach.org.ua_php
@@ -28,8 +49,8 @@ services:
       - "./..:/var/www"
     working_dir: /var/www
     links:
-      - db
-  db:
+      - developer-db
+  developer-db:
     image: mysql:5.7
     container_name: developer.mach.org.ua_db
     volumes:
@@ -50,3 +71,8 @@ secrets:
     file: ./db/secrets/db_password.txt
   db_name:
     file: ./db/secrets/db_name.txt
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
