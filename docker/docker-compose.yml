@@ -7,6 +7,8 @@ services:
     volumes:
       - "./..:/code"
     working_dir: /code
+    env_file:
+      - ./node/.env
     tty: true
     stdin_open: true
   developer-nginx:
@@ -20,27 +22,21 @@ services:
       - 80
     links:
       - developer-php-fpm
-    environment:
-      VIRTUAL_HOST: developer.mach.org.ua
-      VIRTUAL_PORT: 80
-      LETSENCRYPT_HOST: developer.mach.org.ua
-      LETSENCRYPT_EMAIL: admin@developer.mach.org.ua
+    env_file:
+      - ./nginx/.env
   api-developer-nginx:
-      image: nginx:alpine
-      container_name: api.developer.mach.org.ua_nginx
-      volumes:
-        - "./..:/var/www"
-        - "./nginx/logs:/var/log/nginx"
-        - "./nginx/conf.d:/etc/nginx/conf.d"
-      expose:
-        - 80
-      links:
-        - developer-php-fpm
-      environment:
-        VIRTUAL_HOST: api.developer.mach.org.ua
-        VIRTUAL_PORT: 80
-        LETSENCRYPT_HOST: api.developer.mach.org.ua
-        LETSENCRYPT_EMAIL: api.admin@developer.mach.org.ua
+    image: nginx:alpine
+    container_name: api.developer.mach.org.ua_nginx
+    volumes:
+      - "./..:/var/www"
+      - "./nginx/logs:/var/log/nginx"
+      - "./nginx/conf.d:/etc/nginx/conf.d"
+    expose:
+      - 80
+    links:
+      - developer-php-fpm
+    env_file:
+      - ./nginx/.api.env
   developer-php-fpm:
     build: ./php-fpm
     image: developer.mach.org.ua_php_image
@@ -53,24 +49,13 @@ services:
   developer-db:
     image: mysql:5.7
     container_name: developer.mach.org.ua_db
+    command: mysqld --character-set-server=utf8 --collation-server=utf8_general_ci --init-connect='SET NAMES UTF8;' --innodb-flush-log-at-trx-commit=0
     volumes:
       - "./db/data:/var/lib/mysql"
       - "./db/custom.cnf:/etc/mysql/conf.d/custom.cnf"
       - "./db/logs/mysql-slow.log:/var/log/mysql/mysql-slow.log"
-    environment:
-      MYSQL_ROOT_PASSWORD: secret
-      MYSQL_USER: homestead
-      MYSQL_PASSWORD: secret
-      MYSQL_DATABASE: dopusk_local
-    secrets:
-      - db_password
-      - db_name
-
-secrets:
-  db_password:
-    file: ./db/secrets/db_password.txt
-  db_name:
-    file: ./db/secrets/db_name.txt
+    env_file:
+      - ./db/.env
 
 networks:
   default:
