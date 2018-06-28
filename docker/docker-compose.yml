@@ -56,6 +56,8 @@ services:
       - "./db/logs/mysql-slow.log:/var/log/mysql/mysql-slow.log"
     env_file:
       - ./db/.env
+    ports:
+      - "3307:3306"
 
 networks:
   default:
