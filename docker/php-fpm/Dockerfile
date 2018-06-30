@@ -1,6 +1,8 @@
 FROM php:7.1-fpm
 
-RUN usermod -u 1000 www-data
+ARG uid=1000
+
+RUN usermod -u $uid www-data
 
 RUN apt-get update && \
     apt-get upgrade -y
