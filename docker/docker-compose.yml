@@ -1,8 +1,11 @@
 version: "3.1"
 services:
   developer-node:
-    build: ./node
-    image: developer.mach.org.ua_node_image
+    build:
+      context: ./node
+      args:
+        uid: ${CURRENT_UID}
+    image: developer.mach.org.ua_node_image:1.0.1
     container_name: developer.mach.org.ua_node
     user: ${CURRENT_UID}:${CURRENT_GID}
     volumes:
