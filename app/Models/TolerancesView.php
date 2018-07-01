@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Models\Tolerance;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -21,8 +23,27 @@ use Illuminate\Database\Eloquent\Model;
  * @property int $min_size
  * @property string $quality
  * @property string $field
+ * @method static Builder|Tolerance bySize($size)
  */
 class TolerancesView extends Model
 {
     protected $table = 'tolerances_view';
+
+    /**
+     * @param Builder $query
+     * @param int|string $size
+     * @return Builder
+     */
+    public function scopeBySize(Builder $query, $size)
+    {
+        $size = (int) $size;
+
+        if ($size == 1) {
+            $query->where('min_size', '<=', $size);
+        } else {
+            $query->where('min_size', '<', $size);
+        }
+
+        return $query->where('max_size', '>=', $size);
+    }
 }

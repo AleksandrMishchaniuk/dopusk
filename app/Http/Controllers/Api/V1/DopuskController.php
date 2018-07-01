@@ -30,8 +30,7 @@ class DopuskController extends Controller
         ]);
 
         $results = TolerancesView::query()->select('field', 'quality', 'system')
-            ->where('min_size', '<', $request->get('size'))
-            ->where('max_size', '>', $request->get('size'))
+            ->bySize($request->get('size'))
             ->get();
 
         return $results->map(function (TolerancesView $result) {
@@ -59,8 +58,7 @@ class DopuskController extends Controller
         $system = ($field === $fieldLower) ? Tolerance::SYSTEM_SHAFT : Tolerance::SYSTEM_HOLE;
 
         return TolerancesView::query()->select('min_val', 'max_val')
-            ->where('min_size', '<', $request->get('size'))
-            ->where('max_size', '>', $request->get('size'))
+            ->bySize($request->get('size'))
             ->where('system', '=', $system)
             ->where('field', '=', $fieldLower)
             ->where('quality', '=', $quality)
