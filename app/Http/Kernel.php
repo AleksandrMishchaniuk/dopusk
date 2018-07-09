@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\ApiExtraHeaders;
 use App\Http\Middleware\ApiLog;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -42,7 +43,8 @@ class Kernel extends HttpKernel
             'throttle:60,1',
             'bindings',
             'cors',
-            'api_logs'
+            'api_logs',
+            'api_extra_headers',
         ],
     ];
 
@@ -63,6 +65,7 @@ class Kernel extends HttpKernel
         'admin' => \App\Http\Middleware\Admin::class,
         'cors' => \Barryvdh\Cors\HandleCors::class,
 
-        'api_logs' => ApiLog::class
+        'api_logs' => ApiLog::class,
+        'api_extra_headers' => ApiExtraHeaders::class,
     ];
 }

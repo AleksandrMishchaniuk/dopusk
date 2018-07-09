@@ -23,16 +23,16 @@ class ApiLog
         $log->query_params = $_GET;
         $log->post_params = $_POST;
         $log->request_content = $request->getContent();
-        $log->request_headers = $request->headers;
+        $log->request_headers = $request->headers->all();
         $log->ips = $request->ips();
 
         /** @var Response $response */
         $response = $next($request);
 
         $log->response_code = $response->getStatusCode();
-        $log->response_body = $response->getContent();
+        $log->response_body = substr($response->getContent(), 0, 30000);
         $log->response_params = json_decode($response->getContent(), true);
-        $log->response_headers = $response->headers;
+        $log->response_headers = $response->headers->all();
 
         $log->save();
 
