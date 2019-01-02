@@ -1,0 +1,34 @@
+.git
+.idea
+.composer
+
+.bash_history
+.env
+.gitattributes
+.gitignore
+.phpstorm.meta.php
+_ide_helper.php
+phpunit.xml
+readme.md
+server.php
+
+node_modules
+vendor
+
+docker
+!docker/nginx/conf.d/default.conf
+
+shell
+test
+
+bootstrap/cache/**
+!bootstrap/cache/.gitignore
+
+# storage/framework/cache/**
+# storage/framework/sessions/**
+# storage/framework/views/**
+storage/**
+!storage/*/.gitignore
+!storage/*/*/.gitignore
+!storage/*/*/*/.gitignore
+
