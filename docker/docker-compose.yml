@@ -25,7 +25,7 @@ services:
     expose:
       - 80
     links:
-      - developer-php-fpm
+      - developer-app
     env_file:
       - ./nginx/.env
   api-developer-nginx:
@@ -38,10 +38,10 @@ services:
     expose:
       - 80
     links:
-      - developer-php-fpm
+      - developer-app
     env_file:
       - ./nginx/.api.env
-  developer-php-fpm:
+  developer-app:
     build:
       context: ./php-fpm
       args:
