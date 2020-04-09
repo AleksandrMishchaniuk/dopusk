@@ -7,7 +7,9 @@ use App\Http\Controllers\Controller;
 use App\Models\Range;
 use App\Models\Tolerance;
 use App\Models\TolerancesView;
+use App\Repositories\DbToleranceRepository;
 use Illuminate\Http\Request;
+use MachOrgUa\Base\Zone;
 
 class DopuskController extends Controller
 {
@@ -40,28 +42,23 @@ class DopuskController extends Controller
 
     /**
      * @param Request $request
-     * @return \Illuminate\Database\Eloquent\Model|null|static
+     * @return array
      */
     public function tolerance(Request $request)
     {
-        $pattern = '~([a-zA-z]+)([0-9]+)~';
         $this->validate($request, [
             'size' => 'required|numeric|min:0',
-            'field-quality' => 'required|string|regex:' . $pattern,
+            'field-quality' => 'required|string|regex:' . Zone::PATTERN,
         ]);
 
-        preg_match($pattern, $request->get('field-quality'), $fieldQuality);
-        $field = $fieldQuality[1];
-        $quality = $fieldQuality[2];
+        $zone = Zone::createFromString($request->get('field-quality'));
+        $range = new \MachOrgUa\Base\Range((float) $request->get('size'));
 
-        $fieldLower = strtolower($field);
-        $system = ($field === $fieldLower) ? Tolerance::SYSTEM_SHAFT : Tolerance::SYSTEM_HOLE;
+        $tolerance = (new DbToleranceRepository())->getTolerance($range, $zone);
 
-        return TolerancesView::query()->select('min_val', 'max_val')
-            ->bySize($request->get('size'))
-            ->where('system', '=', $system)
-            ->where('field', '=', $fieldLower)
-            ->where('quality', '=', $quality)
-            ->first();
+        return [
+            'min_val' => $tolerance->getMinValue(),
+            'max_val' => $tolerance->getMaxValue(),
+        ];
     }
 }
